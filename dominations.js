@@ -1,4 +1,4 @@
-var date = new Date();
+var date = new Date(); 
 var allTaskMapList = new Array();
 var sortTaskList1 = new Array();
 var sortTaskList2 = new Array();
@@ -73,7 +73,7 @@ function setSortTaskList2() {
 
 function show1() {
 	var divId = "#task1";
-	$(divId).append("<b>========== [ ±¹¹Îº° ÀÏÁ¤ ] ==========</b><br><br>");
+	$(divId).append("<b>========== [ êµ­ë¯¼ë³„ ì¼ì • ] ==========</b><br><br>");
 	for (var taskMap of allTaskMapList) {
 		$(divId).append(taskMap.title + "<br>");
 		var taskList = taskMap.taskList;
@@ -90,10 +90,10 @@ function show2() {
 	var divId = "#task2";
 	var table1 = $('<table/>');
 	var table2 = $('<table/>');
-	$(divId).append("<b>========== [ ÀüÃ¼ ÀÏÁ¤ ] ==========</b><br><br>");
-	$(divId).append("1. ÁøÇà ¶Ç´Â ¿Ï·á<br>");
+	$(divId).append("<b>========== [ ì „ì²´ ì¼ì • ] ==========</b><br><br>");
+	$(divId).append("1. ì§„í–‰ ë˜ëŠ” ì™„ë£Œ<br>");
 	$(divId).append(table1).append("<br>");
-	$(divId).append("2. ´ë±â<br>");
+	$(divId).append("2. ëŒ€ê¸°<br>");
 	$(divId).append(table2).append("<br>");
 	for (var object of sortTaskList1) {
 		if (isStarted(object[6])) {
@@ -106,7 +106,7 @@ function show2() {
 
 function show3() {
 	var divId = "#task3";
-	$(divId).append("<b>===== [ ´ë±â ÀÏÁ¤ (Å¬¶ó¿ìµå) ] =====</b><br><br>");
+	$(divId).append("<b>===== [ ëŒ€ê¸° ì¼ì • (í´ë¼ìš°ë“œ) ] =====</b><br><br>");
 	for (var object of sortTaskList1) {
 		print3(divId, object);
 	}
@@ -114,8 +114,8 @@ function show3() {
 
 function show4() {
 	var divId = "#task4";
-	var titleList = new Array("±¹¹Î", "¹«±â", "µµ¼­");
-	$(divId).append("<b>===== [ ÁøÇà ÀÏÁ¤ ] =====</b><br><br>");
+	var titleList = new Array("êµ­ë¯¼", "ë¬´ê¸°", "ë„ì„œ");
+	$(divId).append("<b>===== [ ì§„í–‰ ì¼ì • ] =====</b><br><br>");
 	for (var i = 0; i < titleList.length; i++) {
 		var title = titleList[i];
 		$(divId).append((i + 1) + ". " + title + "<br>");
@@ -139,8 +139,8 @@ function print1(table, object) {
 		.append($('<td/>', { width : ' 40px', align : ' right'}).append($('<font/>', { text : object[2] } )))
 		.append($('<td/>', { width : ' 15px', align : 'center'}).append($('<font/>', { text : ':' } )))
 		.append($('<td/>', { width : ' 80px', align : ' right'}).append($('<font/>', { text : object[3], class : getPriceClass(object[3]) } )))
-		.append($('<td/>', { width : ' 40px', align : ' right'}).append($('<font/>', { text : "(" + object[4] + "ÀÏ" } )))
-		.append($('<td/>', { width : ' 40px', align : ' right'}).append($('<font/>', { text : object[5] + "½Ã)" } )))
+		.append($('<td/>', { width : ' 40px', align : ' right'}).append($('<font/>', { text : "(" + object[4] + "ì¼" } )))
+		.append($('<td/>', { width : ' 40px', align : ' right'}).append($('<font/>', { text : object[5] + "ì‹œ)" } )))
 		.append($('<td/>', { width : ' 15px', align : 'center'}).append($('<font/>', { text : getStatusStr(object[6], object[7]) } )))
 		.append($('<td/>', { text : '' }))
 	);
@@ -214,9 +214,9 @@ function isFinished(finishDate) {
 }
 
 function getDayClass(day) {
-	if (day == "Åä") {
+	if (day == "í† ") {
 		return "saturday";
-	} else if (day == "ÀÏ") {
+	} else if (day == "ì¼") {
 		return "sunday";
 	} else {
 		return "normal";
@@ -224,11 +224,11 @@ function getDayClass(day) {
 }
 
 function getPriceClass(price) {
-	if (price.endsWith("¼®À¯")) {
+	if (price.endsWith("ì„ìœ ")) {
 		return "oil";
-	} else if (price.endsWith("°ñµå")) {
+	} else if (price.endsWith("ê³¨ë“œ")) {
 		return "gold";
-	} else if (price.endsWith("½Ä·®")) {
+	} else if (price.endsWith("ì‹ëŸ‰")) {
 		return "food";
 	} else {
 		return "normal";
@@ -238,20 +238,20 @@ function getPriceClass(price) {
 function getDifferentTime(finishDate) {
 	var diff = finishDate - date;
 	if (Math.floor(diff / 24 / 60 / 60 / 1000) != 0) {
-		return Math.floor(diff / 1000 / 60 / 60 / 24) + "ÀÏ " + Math.floor((diff / 1000 / 60 / 60) % 24) + "½Ã";
+		return Math.floor(diff / 1000 / 60 / 60 / 24) + "ì¼ " + Math.floor((diff / 1000 / 60 / 60) % 24) + "ì‹œ";
 	} else if (Math.floor(diff / 60 / 60 / 1000) != 0) {
-		return Math.floor(diff / 1000 / 60 / 60) + "½Ã " + Math.floor((diff / 1000 / 60) % 60) + "ºĞ";
+		return Math.floor(diff / 1000 / 60 / 60) + "ì‹œ " + Math.floor((diff / 1000 / 60) % 60) + "ë¶„";
 	} else if (Math.floor(diff / 60 / 1000) != 0) {
-		return Math.floor(diff / 1000 / 60) + "ºĞ " + Math.floor((diff / 1000) % 60) + "ÃÊ";
+		return Math.floor(diff / 1000 / 60) + "ë¶„ " + Math.floor((diff / 1000) % 60) + "ì´ˆ";
 	} else {
-		return Math.floor(diff / 1000 / 60) + "ÃÊ";
+		return Math.floor(diff / 1000 / 60) + "ì´ˆ";
 	}
 }
 
 Date.prototype.format = function(f) {
 	if (!this.valueOf())
 		return " ";
-	var weekName = [ "ÀÏ", "¿ù", "È­", "¼ö", "¸ñ", "±İ", "Åä" ];
+	var weekName = [ "ì¼", "ì›”", "í™”", "ìˆ˜", "ëª©", "ê¸ˆ", "í† " ];
 	var d = this;
 	return f.replace(/(yyyy|yy|MM|dd|E|hh|mm|ss|a\/p)/gi, function($1) {
 		switch ($1) {
@@ -264,7 +264,7 @@ Date.prototype.format = function(f) {
 			case "hh": return ((h = d.getHours() % 12) ? h : 12).zf(2);
 			case "mm": return d.getMinutes().zf(2);
 			case "ss": return d.getSeconds().zf(2);
-			case "a/p": return d.getHours() < 12 ? "¿ÀÀü" : "¿ÀÈÄ";
+			case "a/p": return d.getHours() < 12 ? "ì˜¤ì „" : "ì˜¤í›„";
 			default: return $1;
 		}
 	});
