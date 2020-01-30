@@ -36,14 +36,14 @@ table {
 }
 
 #main {
-	height : 750px;
+	height : 740px;
 	margin-top : 10px;
 }
 
 #task1 {
 	float : left;
 	width : 540px;
-	height : 724px;
+	height : 714px;
 	border : 2px solid #ccc;
 	padding-top : 10px;
 	padding-left : 10px;
@@ -55,7 +55,7 @@ table {
 #task2 {
 	float : left;
 	width : 440px;
-	height : 724px;
+	height : 714px;
 	border : 2px solid #ccc;
 	padding-top : 10px;
 	padding-left : 10px;
@@ -68,7 +68,7 @@ table {
 #task3 {
 	float : left;
 	width : 360px;
-	height : 370px;
+	height : 360px;
 	border : 2px solid #ccc;
 	padding-top : 10px;
 	padding-left : 10px;
