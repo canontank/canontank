@@ -129,30 +129,6 @@
 				allTaskMapList.push(taskMap);
 			}
 
-			function setTask31() {
-				var taskList = new Array();
-				var taskMap = new Object();
-				var type = "도서1";
-				taskMap.title = "3-1. 도서관 연구";
-				taskMap.startDate = "2020-01-22 16:09:00";
-				taskList.push(new Array(type, "전술방어", "Lv. 4", "22.5만 석유", 10,  5)); // 미확인
-				taskList.push(new Array(type, "전술방어", "Lv. 5", "  25만 석유", 14, 11)); // 미확인
-				taskMap.taskList = taskList;
-				allTaskMapList.push(taskMap);
-			}
-
-			function setTask32() {
-				var taskList = new Array();
-				var taskMap = new Object();
-				var type = "도서2";
-				taskMap.title = "3-2. 도서관 연구";
-				taskMap.startDate = "2020-01-22 22:14:00";
-				taskList.push(new Array(type, "정찰항공", "Lv. 4", "22.5만 석유", 10,  5)); // 미확인
-				taskList.push(new Array(type, "정찰항공", "Lv. 5", "  25만 석유", 14, 11)); // 미확인
-				taskMap.taskList = taskList;
-				allTaskMapList.push(taskMap);
-			}
-
 			$(document).ready(function() {
 				try {
 					setTask11();
@@ -162,8 +138,6 @@
 					setTask15();
 					setTask21();
 					setTask22();
-					setTask31();
-					setTask32();
 					setDominations();
 				} catch (e){
 					alert(e);
