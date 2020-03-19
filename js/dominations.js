@@ -26,8 +26,8 @@ function setTaskObject() {
 		var taskList = taskMap.taskList;
 		for (var object of taskList) {
 			var finishDate = new Date(startDate);
-			finishDate.setDate(finishDate.getDate() + object[4]);
-			finishDate.setHours(finishDate.getHours() + object[5]);
+			finishDate.setDate(finishDate.getDate() + +(object[4]));
+			finishDate.setHours(finishDate.getHours() + +(object[5]));
 			object.push(startDate);
 			object.push(finishDate);
 			startDate = finishDate;
