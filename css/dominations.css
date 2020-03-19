@@ -1,95 +1,39 @@
-body { 
-	font-size : 14px;
+body {
+    padding-top : 70px;
+    font-size : 14px;
 }
 
-table {
-	margin-top : 1px;
-	border-spacing : 0px;
+.container {
+    margin-left : 0px;
+    margin-right : 0px;
 }
 
-#dominations {
-	width : 1700px;
+.task {
+    border : 2px solid #ccc; 
+    width : 650px; 
+    height : 850px; 
+    float : left; 
+    padding : 15px; 
+    overflow-y : scroll; 
+    margin-left : 15px;
 }
 
-#header {
-	height : 180px;
+.table {
+    margin-bottom : 0px;
 }
 
-#banner {
-	width : 877px;
-	height : 100%;
-	float : left;
-	background-image : url("../img/dominations.jpg");
+.table-bordered th {
+    background-color :#bbdefb;
+    text-align : center;
 }
 
-#memo {
-	width : 227px;
-	height : 156px;
-	float : left;
-	border : 2px solid #ccc;
-	margin-left : 10px;
-	padding-top : 10px;
-	padding-left : 10px;
-	padding-right : 10px;
-	padding-bottom : 10px;
-	overflow : auto;
-}
-
-#main {
-	height : 730px;
-	margin-top : 10px;
-}
-
-#task1 {
-	float : left;
-	width : 540px;
-	height : 704px;
-	border : 2px solid #ccc;
-	padding-top : 10px;
-	padding-left : 10px;
-	padding-right : 10px;
-	padding-bottom : 10px;
-	overflow : auto;
-}
-
-#task2 {
-	float : left;
-	width : 440px;
-	height : 704px;
-	border : 2px solid #ccc;
-	padding-top : 10px;
-	padding-left : 10px;
-	padding-right : 10px;
-	padding-bottom : 10px;
-	margin-left : 10px;
-	overflow : auto;
-}
-
-#task3 {
-	float : left;
-	width : 360px;
-	height : 350px;
-	border : 2px solid #ccc;
-	padding-top : 10px;
-	padding-left : 10px;
-	padding-right : 10px;
-	padding-bottom : 10px;
-	margin-left : 10px;
-	overflow : auto;
-}
-
-#task4 {
-	float : left;
-	width : 360px;
-	height : 320px;
-	border : 2px solid #ccc;
-	padding-top : 10px;
-	padding-left : 10px;
-	padding-right : 10px;
-	padding-bottom : 10px;
-	margin-left : 10px;
-	margin-top : 10px;
-	overflow : auto;
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th, 
+.table-bordered > tfoot > tr > th, 
+.table-bordered > thead > tr > td, 
+.table-bordered > tbody > tr > td, 
+.table-bordered > tfoot > tr > td {
+    padding : 4px;
 }
 
 .normal {
@@ -115,4 +59,3 @@ table {
 .sunday {
 	color : red;
 }
-

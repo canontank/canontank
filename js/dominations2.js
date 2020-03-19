@@ -69,7 +69,6 @@ function setTask15() {
 	var type = "국민5";
 	taskMap.title = "1-5. 국민 (1명)";
 	taskMap.startDate = "2020-03-01 16:38:00";
-	taskList.push(new Array(type, "무장함정", "Lv. 1", "   7만 석유", 12, 12 ));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }

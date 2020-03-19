@@ -2,30 +2,36 @@
 <html>
 	<head>
 		<title>도미네이션즈 일정 2</title>
-		<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<script type="text/javascript" src="js/dominations.js"></script>
 		<script type="text/javascript" src="js/dominations2.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
 		<link type="text/css" rel="stylesheet" href="css/dominations.css">
 	</head>
 
 	<body>
-		<body>
-		<div id="dominations">
-			<div id="header">
-				<div id="banner"></div>
-				<div id="memo">
-					<div><b>======= [ 메모 ] =======</b></div><br>
-					<div>1. 국민3, 국민4 : 인구수 4 운영</div>
-					<div>2. 국민5, 국민6 : 인구수 4 운영</div>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+					<a id="banner" class="navbar-brand" href="#"><b>도미네이션즈 일정 2</b></a>
+                </div>
+            </div>
+		</nav>
+
+		<div class="hidden-xs" style="width:100%;">
+			<div id="task1" class="task"></div>
+			<div id="task2" class="task"></div>
+			<div id="task3" class="task" style="width:300px;"></div>
+		</div>
+		
+		<div class="container hidden-sm hidden-md hidden-lg">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="task4"></div>
 				</div>
 			</div>
-			<div id="main">
-				<div id="task1"></div>
-				<div id="task2"></div>
-				<div id="task3"></div>
-				<div id="task4"></div>
-			</div>
 		</div>
-	</body>
 	</body>
 </html>
