@@ -23,6 +23,7 @@ function init() {
 function setTaskObject() {
 	for (var taskMap of allTaskMapList) {
 		var startDate = new Date(taskMap.startDate);
+		console.log(startDate);
 		var taskList = taskMap.taskList;
 		for (var object of taskList) {
 			var finishDate = new Date(startDate);
