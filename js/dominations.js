@@ -157,7 +157,7 @@ function setTitle1(table) {
 
 function setContents1(table, object) {
 	$(table).append($('<tr/>')
-		.append($('<td/>', { 'align' : 'center' }).append($('<font/>', { text : object[6].format("yyyy-MM-dd (E) HH:mm") } )))
+		.append($('<td/>', { 'align' : 'center' }).append($('<font/>', { text : object[6].format("yyyy-MM-dd (E) HH:mm"), class : getDayClass(object[6].format("E")) } )))
 		.append($('<td/>', { 'align' : 'center' }).append($('<font/>', { text : object[0] } )))
 		.append($('<td/>', { 'align' : 'center' }).append($('<font/>', { text : object[1] } )))
 		.append($('<td/>', { 'align' :  'right' }).append($('<font/>', { text : object[2] } )))
@@ -199,7 +199,7 @@ function setTitle4(table) {
 
 function setContents4(table, object) {
 	$(table).append($('<tr/>')
-		.append($('<td/>', { 'align' : 'center' }).append($('<font/>', { text : object[6].format("MM/dd(E) HH:mm") } )))
+		.append($('<td/>', { 'align' : 'center' }).append($('<font/>', { text : object[6].format("MM/dd(E) HH:mm"), class : getDayClass(object[6].format("E")) } )))
 		.append($('<td/>', { 'align' : 'center' }).append($('<font/>', { text : object[1] } )))
 		.append($('<td/>', { 'align' :  'right' }).append($('<font/>', { text : object[2] } )))
 		.append($('<td/>', { 'align' :  'right' }).append($('<font/>', { text : object[3], class : getPriceClass(object[3]) } )))
