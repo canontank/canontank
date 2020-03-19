@@ -4,7 +4,6 @@ var sortTaskList1 = new Array();
 var sortTaskList2 = new Array();
 
 function setDominations() {
-	init();
 	setTaskObject();
 	setSortTaskList1();
 	setSortTaskList2();
@@ -14,16 +13,9 @@ function setDominations() {
 	show4();
 }
 
-function init() {
-	$("#banner").click(function() {
-		location.reload();
-	});
-}
-
 function setTaskObject() {
 	for (var taskMap of allTaskMapList) {
 		var startDate = new Date(taskMap.startDate);
-		console.log(startDate);
 		var taskList = taskMap.taskList;
 		for (var object of taskList) {
 			var finishDate = new Date(startDate);
