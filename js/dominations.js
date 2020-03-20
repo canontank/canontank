@@ -24,10 +24,7 @@ function setHeight() {
 
 function setTaskObject() {
 	for (var taskMap of allTaskMapList) {
-		//var startDate = new Date(taskMap.startDate);
-		var date = taskMap.startDate.split(" ")[0];
-		var time = taskMap.startDate.split(" ")[1];
-		var startDate = new Date(date.split("-")[0], date.split("-")[1] - 1, date.split("-")[2], time.split(":")[0], time.split(":")[1], time.split(":")[2]);
+		var startDate = getDate(taskMap.startDate);
 		var taskList = taskMap.taskList;
 		for (var object of taskList) {
 			var finishDate = new Date(startDate);
@@ -38,6 +35,18 @@ function setTaskObject() {
 			startDate = finishDate;
 		}
 	}
+}
+
+function getDate(dateTime) {
+	var date = dateTime.split(" ")[0];
+	var time = dateTime.split(" ")[1];
+	var year = date.split("-")[0];
+	var month = date.split("-")[1] - 1;
+	var day = date.split("-")[2];
+	var hour = time.split(":")[0];
+	var min = time.split(":")[1];
+	var sec = time.split(":")[2];
+	return new Date(year, month, day, hour, min, sec);
 }
 
 function setSortTaskList1() {
