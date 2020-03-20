@@ -27,7 +27,7 @@ function setTaskObject() {
 		//var startDate = new Date(taskMap.startDate);
 		var date = taskMap.startDate.split(" ")[0];
 		var time = taskMap.startDate.split(" ")[1];
-		var startDate = new Date(date.split("-")[0], date.split("-")[1], date.split("-")[2], time.split(":")[0], time.split(":")[1], time.split(":")[2]);
+		var startDate = new Date(date.split("-")[0], date.split("-")[1] - 1, date.split("-")[2], time.split(":")[0], time.split(":")[1], time.split(":")[2]);
 		var taskList = taskMap.taskList;
 		for (var object of taskList) {
 			var finishDate = new Date(startDate);
