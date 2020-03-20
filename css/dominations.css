@@ -1,5 +1,5 @@
 body {
-    padding-top : 70px;
+    padding-top : 50px;
     font-size : 14px;
 }
 
@@ -8,14 +8,16 @@ body {
     margin-right : 0px;
 }
 
+.clear20 {
+    margin-top : 20px;
+}
+
 .task {
-    border : 2px solid #ccc; 
-    width : 650px; 
-    height : 850px; 
-    float : left; 
-    padding : 15px; 
-    overflow-y : scroll; 
-    margin-left : 15px;
+    float : left;
+    width : 35%;
+    padding : 25px;
+    overflow-y : auto;
+    border-right : 1px solid #ccc;
 }
 
 .table {
@@ -23,7 +25,6 @@ body {
 }
 
 .table-bordered th {
-    background-color :#bbdefb;
     text-align : center;
 }
 

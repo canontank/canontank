@@ -3,7 +3,12 @@ var allTaskMapList = new Array();
 var sortTaskList1 = new Array();
 var sortTaskList2 = new Array();
 
+$(function() {
+	$(window).resize(setHeight);
+});
+
 function setDominations() {
+	setHeight();
 	setTaskObject();
 	setSortTaskList1();
 	setSortTaskList2();
@@ -11,6 +16,10 @@ function setDominations() {
 	show2();
 	show3();
 	show4();
+}
+
+function setHeight() {
+	$(".task").innerHeight(window.innerHeight - 50);
 }
 
 function setTaskObject() {
@@ -66,9 +75,8 @@ function setSortTaskList2() {
 
 function show1() {
 	var divId = "#task1";
-	$(divId).append("<b>========== [ 국민별 일정 ] ==========</b><br><br>");
 	for (var taskMap of allTaskMapList) {
-		$(divId).append($("<h5/>", { text : taskMap.title }));
+		$(divId).append($("<h4/>", { text : taskMap.title }));
 		var taskList = taskMap.taskList;
 		var table = $('<table/>', { class : 'table table-bordered table-striped text-right' });
 		setTitle1(table);
@@ -86,10 +94,9 @@ function show2() {
 	setTitle1(table1);
 	var table2 = $('<table/>', { class : 'table table-bordered table-striped text-right' });
 	setTitle1(table2);
-	$(divId).append("<b>========== [ 전체 일정 ] ==========</b><br><br>");
-	$(divId).append($("<p/>", { text : "1. 진행 또는 완료" }));
+	$(divId).append($("<h4/>", { text : "1. 진행 또는 완료" }));
 	$(divId).append(table1).append("<br>");
-	$(divId).append($("<p/>", { text : "2. 대기" }));
+	$(divId).append($("<h4/>", { text : "2. 대기" }));
 	$(divId).append(table2).append("<br>");
 	for (var object of sortTaskList1) {
 		if (isStarted(object[6])) {
@@ -103,10 +110,9 @@ function show2() {
 function show3() {
 	var divId = "#task3";
 	var titleList = new Array("국민", "무기", "도서");
-	$(divId).append("<b>===== [ 진행 일정 ] =====</b><br><br>");
 	for (var i = 0; i < titleList.length; i++) {
 		var title = titleList[i];
-		$(divId).append($("<p/>", { text : (i + 1) + ". " + title }));
+		$(divId).append($("<h4/>", { text : (i + 1) + ". " + title }));
 		var table = $('<table/>', { class : 'table table-bordered table-striped' });
 		setTitle3(table);
 		$(divId).append(table);
@@ -257,6 +263,10 @@ function getDifferentTime(finishDate) {
 	} else {
 		return Math.floor(diff / 1000 / 60) + "초";
 	}
+}
+
+function reload() {
+	location.reload();
 }
 
 Date.prototype.format = function(f) {
