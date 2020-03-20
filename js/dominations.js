@@ -24,7 +24,8 @@ function setHeight() {
 
 function setTaskObject() {
 	for (var taskMap of allTaskMapList) {
-		var startDate = new Date(taskMap.startDate);
+		//var startDate = new Date(taskMap.startDate);
+		var startDate = new Date();
 		var taskList = taskMap.taskList;
 		for (var object of taskList) {
 			var finishDate = new Date(startDate);
