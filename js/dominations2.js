@@ -19,13 +19,15 @@ function setTask12() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민2";
-	taskMap.title = "1-2. 국민 (3명)";
-	taskMap.startDate = "2020-03-20 05:42:00";
-	taskList.push(new Array(type, "대전차포", "Lv.10", "1600만 골드", 16, 12)); // 디지털
-	taskList.push(new Array(type, "대전차포", "Lv.10", "1600만 골드", 16, 12)); // 디지털
-	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
-	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
-	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
+	taskMap.title = "1-2. 국민 (6명)";
+	taskMap.startDate = "2020-03-14 02:59:00";
+	taskList.push(new Array(type, "전차격납", "Lv.11", "1250만 골드", 14,  0 ));
+	taskList.push(new Array(type, "전차격납", "Lv.12", "1380만 골드", 15,  0 ));
+	taskList.push(new Array(type, "전차격납", "Lv.12", "1380만 골드", 15,  0 ));
+	taskList.push(new Array(type, "전차격납", "Lv.13", "1380만 골드", 16,  0 ));
+	taskList.push(new Array(type, "전차격납", "Lv.13", "1380만 골드", 16,  0 ));
+	taskList.push(new Array(type, "전차격납", "Lv.14", "1600만 골드", 18,  0 ));
+	taskList.push(new Array(type, "전차격납", "Lv.14", "1600만 골드", 18,  0 ));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -49,15 +51,13 @@ function setTask14() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민4";
-	taskMap.title = "1-4. 국민 (6명)";
-	taskMap.startDate = "2020-03-14 02:59:00";
-	taskList.push(new Array(type, "전차격납", "Lv.11", "1250만 골드", 14,  0 ));
-	taskList.push(new Array(type, "전차격납", "Lv.12", "1380만 골드", 15,  0 ));
-	taskList.push(new Array(type, "전차격납", "Lv.12", "1380만 골드", 15,  0 ));
-	taskList.push(new Array(type, "전차격납", "Lv.13", "1380만 골드", 16,  0 ));
-	taskList.push(new Array(type, "전차격납", "Lv.13", "1380만 골드", 16,  0 ));
-	taskList.push(new Array(type, "전차격납", "Lv.14", "1600만 골드", 18,  0 ));
-	taskList.push(new Array(type, "전차격납", "Lv.14", "1600만 골드", 18,  0 ));
+	taskMap.title = "1-4. 국민 (3명)";
+	taskMap.startDate = "2020-03-20 05:42:00";
+	taskList.push(new Array(type, "대전차포", "Lv.10", "1600만 골드", 16, 12)); // 디지털
+	taskList.push(new Array(type, "대전차포", "Lv.10", "1600만 골드", 16, 12)); // 디지털
+	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
+	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
+	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
