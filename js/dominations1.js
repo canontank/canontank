@@ -59,8 +59,7 @@ function setTask14() {
 	var taskMap = new Object();
 	var type = "국민4";
 	taskMap.title = "1-4. 국민 (3명 → 6명)";
-	taskMap.startDate = "2020-03-15 13:11:00";
-	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
+	taskMap.startDate = "2020-03-29 13:15:00";
 	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
 	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
 	taskList.push(new Array(type, "전차격납", "Lv.14", "1600만 골드", 18,  0));
