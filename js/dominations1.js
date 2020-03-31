@@ -31,7 +31,6 @@ function setTask12() {
 	taskList.push(new Array(type, "방공타워", "Lv. 8", "1500만 골드", 13,  0));
 	taskList.push(new Array(type, "방공타워", "Lv. 9", "1700만 골드", 14, 12));
 	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16, 12)); // 미확인
-	taskList.push(new Array(type, "저격타워", "Lv. 1", " 300만 골드",  3,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -77,6 +76,7 @@ function setTask15() {
 	taskMap.startDate = "2020-03-23 21:52:00";
 	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
 	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
+	taskList.push(new Array(type, "저격타워", "Lv. 1", " 300만 골드",  3,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
