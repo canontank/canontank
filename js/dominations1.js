@@ -78,6 +78,10 @@ function setTask15() {
 	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
 	taskList.push(new Array(type, "저격타워", "Lv. 1", " 300만 골드",  3,  0));
 	taskList.push(new Array(type, "금고    ", "Lv. 3", " 160만 식량",  3,  0));
+	taskList.push(new Array(type, "매복함정", "Lv.10", " 550만 골드", 12, 12));
+	taskList.push(new Array(type, "매복함정", "Lv.10", " 550만 골드", 12, 12));
+	taskList.push(new Array(type, "매복함정", "Lv.10", " 550만 골드", 12, 12));
+	taskList.push(new Array(type, "매복함정", "Lv.10", " 550만 골드", 12, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
