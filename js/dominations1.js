@@ -79,17 +79,6 @@ function setTask15() {
 	allTaskMapList.push(taskMap);
 }
 
-function setTask16() {
-	var taskList = new Array();
-	var taskMap = new Object();
-	var type = "국민6";
-	taskMap.title = "1-6. 국민 (1명 → 0명)";
-	taskMap.startDate = "2020-04-04 05:09:00";
-	taskList.push(new Array(type, "유인함정", "Lv. 3", " 450만 골드", 10,  0));
-	taskMap.taskList = taskList;
-	allTaskMapList.push(taskMap);
-}
-
 function setTask21() {
 	var taskList = new Array();
 	var taskMap = new Object();
@@ -134,7 +123,6 @@ $(document).ready(function() {
 		setTask13();
 		setTask14();
 		setTask15();
-		setTask16();
 		setTask21();
 		setTask22();
 		setDominations();
