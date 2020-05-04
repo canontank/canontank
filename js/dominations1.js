@@ -75,8 +75,7 @@ function setTask21() {
 	var taskMap = new Object();
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
-	taskMap.startDate = "2020-04-28 14:06:00";
-	taskList.push(new Array(type, "선진폭격", "Lv. 6", "  18만 석유",  8, 14)); // 디지털
+	taskMap.startDate = "2020-05-04 20:08:00";
 	taskList.push(new Array(type, "사보타주", "Lv. 3", " 900만 식량",  9, 22));
 	taskList.push(new Array(type, "보호    ", "Lv. 3", " 650만 식량",  9, 22));
 	taskList.push(new Array(type, "일제사격", "Lv. 3", " 730만 식량",  9, 22));
@@ -93,8 +92,7 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2020-04-18 21:58:00";
-	taskList.push(new Array(type, "전술헬기", "Lv. 6", "  25만 석유", 16,  4)); // 디지털
+	taskMap.startDate = "2020-05-04 20:19:00";
 	taskList.push(new Array(type, "엠알엘  ", "Lv. 5", "  24만 석유", 14,  6)); // 디지털 (예상)
 	taskList.push(new Array(type, "우주포병", "Lv. 1", "1500만 식량", 13,  8)); // 우주
 	taskList.push(new Array(type, "우주야전", "Lv. 1", "1500만 식량", 13,  8)); // 우주
