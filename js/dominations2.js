@@ -59,10 +59,10 @@ function setTask21() {
 	taskList.push(new Array(type, "선진폭격", "Lv. 6", "  18만 석유",  8, 14 )); // 디지털
 	taskList.push(new Array(type, "엠알엘  ", "Lv. 4", "21.5만 석유", 14,  6 ));
 	taskList.push(new Array(type, "엠알엘  ", "Lv. 5", "  24만 석유", 14,  6 ));
-	taskList.push(new Array(type, "전술헬기", "Lv. 6", "  25만 석유", 16,  4 )); // 디지털
 	taskList.push(new Array(type, "무장차량", "Lv. 6", "  24만 석유", 14,  8 )); // 예상
 	taskList.push(new Array(type, "무장차량", "Lv. 7", "  25만 석유", 16,  4 )); // 예상
 	taskList.push(new Array(type, "무장차량", "Lv. 8", "  25만 석유", 16,  4 )); // 디지털
+	taskList.push(new Array(type, "전술헬기", "Lv. 6", "  25만 석유", 16,  4 )); // 디지털
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
