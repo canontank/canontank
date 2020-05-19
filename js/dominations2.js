@@ -28,9 +28,10 @@ function setTask13() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민3";
-	taskMap.title = "1-3. 국민 (3명)";
+	taskMap.title = "1-3. 국민 (3명 → 2명 → 4명)";
 	taskMap.startDate = "2020-05-19 14:58:00";
 	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
+	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 650만 골드", 13, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -39,7 +40,7 @@ function setTask14() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민4";
-	taskMap.title = "1-4. 국민 (3명)";
+	taskMap.title = "1-4. 국민 (3명 → 4명)";
 	taskMap.startDate = "2020-05-06 10:53:00";
 	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
 	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
