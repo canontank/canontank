@@ -3,8 +3,10 @@ function setTask11() {
 	var taskMap = new Object();
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (6명)";
-	taskMap.startDate = "2020-05-15 22:30:00";
+	taskMap.startDate = "2020-05-12 12:03:00";
 	taskList.push(new Array(type, "전차격납", "Lv.13", "1380만 골드", 16,  0 ));
+	taskList.push(new Array(type, "전차격납", "Lv.14", "1600만 골드", 18,  0 ));
+	taskList.push(new Array(type, "전차격납", "Lv.14", "1600만 골드", 18,  0 ));
 	taskList.push(new Array(type, "전차격납", "Lv.14", "1600만 골드", 18,  0 ));
 	taskList.push(new Array(type, "전차격납", "Lv.14", "1600만 골드", 18,  0 ));
 	taskMap.taskList = taskList;
@@ -15,11 +17,13 @@ function setTask12() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민2";
-	taskMap.title = "1-2. 국민 (6명)";
-	taskMap.startDate = "2020-05-12 12:03:00";
+	taskMap.title = "1-2. 국민 (6명 → 4명)";
+	taskMap.startDate = "2020-05-15 22:30:00";
 	taskList.push(new Array(type, "전차격납", "Lv.13", "1380만 골드", 16,  0 ));
-	taskList.push(new Array(type, "전차격납", "Lv.14", "1600만 골드", 18,  0 ));
-	taskList.push(new Array(type, "전차격납", "Lv.14", "1600만 골드", 18,  0 ));
+	taskList.push(new Array(type, "방공타워", "Lv. 2", " 550만 골드",  7,  0));
+	taskList.push(new Array(type, "방공타워", "Lv. 3", " 700만 골드",  8,  0));
+	taskList.push(new Array(type, "방공타워", "Lv. 4", " 860만 골드", 10,  0));
+	taskList.push(new Array(type, "방공타워", "Lv. 5", "1060만 골드", 10, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -28,10 +32,10 @@ function setTask13() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민3";
-	taskMap.title = "1-3. 국민 (3명 → 2명 → 4명)";
+	taskMap.title = "1-3. 국민 (3명 → 4명)";
 	taskMap.startDate = "2020-05-19 14:58:00";
 	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
-	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 650만 골드", 13, 12));
+	taskList.push(new Array(type, "방공타워", "Lv. 4", " 860만 골드", 10,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -44,6 +48,7 @@ function setTask14() {
 	taskMap.startDate = "2020-05-06 10:53:00";
 	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
 	taskList.push(new Array(type, "유정    ", "Lv.11", "1600만 골드", 14, 12)); // 디지털
+	taskList.push(new Array(type, "방공타워", "Lv. 4", " 860만 골드", 10,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
