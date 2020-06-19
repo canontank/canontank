@@ -93,9 +93,8 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2020-06-08 11:04:00";
-    	taskList.push(new Array(type, "개틀링건", "Lv. 8", "  20만 석유", 12,  9 )); // 예상
-    	taskList.push(new Array(type, "개틀링건", "Lv. 9", "  23만 석유", 13, 10 )); // 예상
+	taskMap.startDate = "2020-06-20 01:34:00";
+    	taskList.push(new Array(type, "개틀링건", "Lv. 9", "  23만 석유", 13,  8 ));
     	taskList.push(new Array(type, "개틀링건", "Lv.10", "  24만 석유", 14,  8 )); // 예상
     	taskList.push(new Array(type, "개틀링건", "Lv.11", "  25만 석유", 16,  4 )); // 예상
     	taskList.push(new Array(type, "개틀링건", "Lv.12", "  25만 석유", 16,  4 )); // 디지털
