@@ -69,9 +69,13 @@ function setTask21() {
 	var taskMap = new Object();
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
-	taskMap.startDate = "2020-06-23 02:13:00";
-	taskList.push(new Array(type, "배반    ", "Lv. 3", "1000만 식량",  9, 22));
+	taskMap.startDate = "2020-07-02 18:27:00";
 	taskList.push(new Array(type, "유인    ", "Lv. 3", "1000만 식량",  9, 22));
+	taskList.push(new Array(type, "보병    ", "Lv. 1", "1350만 식량", 14,  7)); // 디지털
+	taskList.push(new Array(type, "돌격대  ", "Lv. 1", "1300만 식량", 14,  7)); // 디지털
+	taskList.push(new Array(type, "공병    ", "Lv. 1", "1300만 식량", 14,  7)); // 디지털
+	taskList.push(new Array(type, "박격포병", "Lv. 1", "1780만 식량", 14,  7)); // 디지털
+	taskList.push(new Array(type, "헬리곱터", "Lv. 1", "1800만 식량", 14,  7)); // 디지털
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -84,6 +88,11 @@ function setTask22() {
 	taskMap.startDate = "2020-06-27 12:52:00";
 	taskList.push(new Array(type, "우주헬기", "Lv. 1", "1500만 식량", 13,  8)); // 우주
 	taskList.push(new Array(type, "우주강습", "Lv. 1", "1500만 식량", 13,  8)); // 우주
+	taskList.push(new Array(type, "소총수  ", "Lv. 1", "1350만 식량", 14,  7)); // 디지털
+	taskList.push(new Array(type, "전차    ", "Lv. 1", "1800만 식량", 14,  7)); // 디지털
+	taskList.push(new Array(type, "포병    ", "Lv. 1", "1800만 식량", 14,  7)); // 디지털
+	taskList.push(new Array(type, "힐마차  ", "Lv. 1", "1800만 식량", 14,  7)); // 디지털
+	taskList.push(new Array(type, "강습차량", "Lv. 1", "1800만 식량", 14,  7)); // 디지털
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
