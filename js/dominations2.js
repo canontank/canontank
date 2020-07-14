@@ -39,8 +39,7 @@ function setTask13() {
 	var taskMap = new Object();
 	var type = "국민3";
 	taskMap.title = "1-3. 국민 (4명)";
-	taskMap.startDate = "2020-07-03 23:15:00";
-	taskList.push(new Array(type, "방공타워", "Lv. 6", "1220만 골드", 11,  0));
+	taskMap.startDate = "2020-07-15 01:26:00";
 	taskList.push(new Array(type, "방공타워", "Lv. 6", "1220만 골드", 11,  0));
 	taskList.push(new Array(type, "방공타워", "Lv. 7", "1400만 골드", 12,  0));
 	taskList.push(new Array(type, "방공타워", "Lv. 7", "1400만 골드", 12,  0));
