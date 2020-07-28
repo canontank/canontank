@@ -44,6 +44,9 @@ function setTask14() {
 	taskMap.startDate = "2020-07-26 14:18:00";
 	taskList.push(new Array(type, "타워    ", "Lv.14", "1520만 골드", 12, 12));
 	taskList.push(new Array(type, "타워    ", "Lv.14", "1520만 골드", 12, 12));
+	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 22));
+	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 22));
+	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 22));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
