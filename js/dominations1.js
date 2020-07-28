@@ -6,6 +6,7 @@ function setTask11() {
 	taskMap.startDate = "2020-07-25 03:05:00";
 	taskList.push(new Array(type, "타워    ", "Lv.14", "1520만 골드", 12, 12));
 	taskList.push(new Array(type, "타워    ", "Lv.14", "1520만 골드", 12, 12));
+	taskList.push(new Array(type, "조선소  ", "Lv.12", "1200만 골드", 13,  4));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -40,13 +41,14 @@ function setTask14() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민4";
-	taskMap.title = "1-4. 국민 (4명)";
+	taskMap.title = "1-4. 국민 (4명 → 3명)";
 	taskMap.startDate = "2020-07-26 14:18:00";
 	taskList.push(new Array(type, "타워    ", "Lv.14", "1520만 골드", 12, 12));
 	taskList.push(new Array(type, "타워    ", "Lv.14", "1520만 골드", 12, 12));
 	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 22));
 	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 22));
 	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 22));
+	taskList.push(new Array(type, "미샬격납", "Lv. 9", "  25만 석유", 17,  1));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -55,18 +57,13 @@ function setTask15() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민5";
-	taskMap.title = "1-5. 국민 (2명)";
+	taskMap.title = "1-5. 국민 (2명 → 3명)";
 	taskMap.startDate = "2020-07-28 23:24:00";
 	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 650만 골드", 13, 12));
 	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 650만 골드", 13, 12));
 	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 22));
 	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 22));
 	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 22));
-	taskList.push(new Array(type, "미샬포대", "Lv.10", " 820만 골드", 15,  3));
-	taskList.push(new Array(type, "미샬포대", "Lv.10", " 820만 골드", 15,  3));
-	taskList.push(new Array(type, "미샬포대", "Lv.10", " 820만 골드", 15,  3));
-	taskList.push(new Array(type, "미샬포대", "Lv.10", " 820만 골드", 15,  3));
-	taskList.push(new Array(type, "미샬포대", "Lv.10", " 820만 골드", 15,  3));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
