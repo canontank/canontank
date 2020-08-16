@@ -106,10 +106,10 @@ $(document).ready(function() {
 		setTask11();
 		setTask12();
 		setTask13();
-		//setTask14();
-		//setTask15();
-		//setTask21();
-		//setTask22();
+		setTask14();
+		setTask15();
+		setTask21();
+		setTask22();
 		setDominations();
 	} catch (e){
 		alert(e);
