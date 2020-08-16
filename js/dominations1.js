@@ -8,6 +8,8 @@ function setTask11() {
 	taskList.push(new Array(type, "공장    ", "Lv.13", "  28만 석유", 17,  0));
 	taskList.push(new Array(type, "조선소  ", "Lv.12", "1200만 골드", 13,  4));
 	taskList.push(new Array(type, "보루    ", "Lv. 2", " 360만 골드",  4,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -22,6 +24,8 @@ function setTask12() {
 	taskList.push(new Array(type, "타워    ", "Lv.14", "1520만 골드", 12, 12));
 	taskList.push(new Array(type, "대학    ", "Lv. 8", " 800만 골드", 11,  0));
 	taskList.push(new Array(type, "보루    ", "Lv. 2", " 360만 골드",  4,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -36,6 +40,7 @@ function setTask13() {
 	taskList.push(new Array(type, "무역저장", "Lv.12", "1100만 골드", 10, 12));
 	taskList.push(new Array(type, "보루    ", "Lv. 2", " 360만 골드",  4,  0));
 	taskList.push(new Array(type, "보루    ", "Lv. 2", " 360만 골드",  4,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -101,10 +106,10 @@ $(document).ready(function() {
 		setTask11();
 		setTask12();
 		setTask13();
-		setTask14();
-		setTask15();
-		setTask21();
-		setTask22();
+		//setTask14();
+		//setTask15();
+		//setTask21();
+		//setTask22();
 		setDominations();
 	} catch (e){
 		alert(e);
