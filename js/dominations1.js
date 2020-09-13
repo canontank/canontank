@@ -72,8 +72,7 @@ function setTask21() {
 	var taskMap = new Object();
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
-	taskMap.startDate = "2020-08-31 22:44:00";
-	taskList.push(new Array(type, "전차    ", "Lv. 1", "1800만 식량", 14,  7)); // 디지털
+	taskMap.startDate = "2020-09-13 18:49:00";
 	taskList.push(new Array(type, "개틀링건", "Lv. 5", "  25만 석유", 16,  4 ));
 	taskList.push(new Array(type, "중전차  ", "Lv. 5", "  25만 석유", 16,  4 ));
 	taskList.push(new Array(type, "무장차량", "Lv. 5", "  25만 석유", 16,  4 ));
