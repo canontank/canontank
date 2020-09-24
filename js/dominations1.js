@@ -6,6 +6,8 @@ function setTask11() {
 	taskMap.startDate = "2020-09-24 11:00:00";
 	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
 	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 4", " 900만 골드", 14,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 4", " 900만 골드", 14,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -18,6 +20,8 @@ function setTask12() {
 	taskMap.startDate = "2020-09-24 11:08:00";
 	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
 	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 4", " 900만 골드", 14,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 4", " 900만 골드", 14,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -30,6 +34,7 @@ function setTask13() {
 	taskMap.startDate = "2020-09-13 18:45:00";
 	taskList.push(new Array(type, "조선소  ", "Lv.12", "1200만 골드", 13,  4));
 	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 4", " 900만 골드", 14,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
