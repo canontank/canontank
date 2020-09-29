@@ -6,6 +6,7 @@ function setTask11() {
 	taskMap.startDate = "2020-09-24 11:00:00";
 	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
 	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
+	taskList.push(new Array(type, "도서관  ", "Lv.15", "1800만 골드", 18,  0)); // 미확인
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -18,6 +19,7 @@ function setTask12() {
 	taskMap.startDate = "2020-09-24 11:08:00";
 	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
 	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
+	taskList.push(new Array(type, "용병캠프", "Lv.17", "1800만 식량", 18,  0)); // 미확인
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -30,6 +32,8 @@ function setTask13() {
 	taskMap.startDate = "2020-09-29 21:55:00";
 	taskList.push(new Array(type, "저격타워", "Lv. 2", " 400만 골드",  5,  0));
 	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
+	taskList.push(new Array(type, "비행장  ", "Lv. 8", "  28만 석유", 18,  0)); // 미확인
+	taskList.push(new Array(type, "비행장  ", "Lv. 8", "  28만 석유", 18,  0)); // 미확인
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
