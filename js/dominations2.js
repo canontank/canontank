@@ -3,8 +3,8 @@ function setTask11() {
 	var taskMap = new Object();
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (4명)";
-	taskMap.startDate = "2020-10-24 12:15:00";
-	taskList.push(new Array(type, "성채    ", "Lv. 6", " 600만 식량",  9,  0));
+	taskMap.startDate = "2020-11-08 19:33:00";
+	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
 	taskList.push(new Array(type, "방공타워", "Lv. 9", "1700만 골드", 14, 12));
 	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
 	taskMap.taskList = taskList;
@@ -16,8 +16,8 @@ function setTask12() {
 	var taskMap = new Object();
 	var type = "국민2";
 	taskMap.title = "1-2. 국민 (4명)";
-	taskMap.startDate = "2020-10-24 12:22:00";
-	taskList.push(new Array(type, "무역저장", "Lv.12", "1100만 골드", 10, 12));
+	taskMap.startDate = "2020-11-08 19:33:00";
+	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
 	taskList.push(new Array(type, "방공타워", "Lv. 9", "1700만 골드", 14, 12));
 	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
 	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
@@ -30,8 +30,8 @@ function setTask13() {
 	var taskMap = new Object();
 	var type = "국민3";
 	taskMap.title = "1-3. 국민 (4명)";
-	taskMap.startDate = "2020-10-18 19:30:00";
-	taskList.push(new Array(type, "방공타워", "Lv. 9", "1700만 골드", 14, 12));
+	taskMap.startDate = "2020-11-08 19:33:00";
+	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
 	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
 	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
 	taskMap.taskList = taskList;
