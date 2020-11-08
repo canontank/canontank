@@ -5,8 +5,7 @@ function setTask11() {
 	taskMap.title = "1-1. 국민 (4명)";
 	taskMap.startDate = "2020-11-08 19:33:00";
 	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
-	taskList.push(new Array(type, "방공타워", "Lv. 9", "1700만 골드", 14, 12));
-	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
+	taskList.push(new Array(type, "도서관  ", "Lv.15", "1800만 골드", 18,  0)); // 예상
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -18,9 +17,7 @@ function setTask12() {
 	taskMap.title = "1-2. 국민 (4명)";
 	taskMap.startDate = "2020-11-08 19:33:00";
 	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
-	taskList.push(new Array(type, "방공타워", "Lv. 9", "1700만 골드", 14, 12));
-	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
-	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
+	taskList.push(new Array(type, "용병캠프", "Lv.15", "1800만 식량", 18,  0)); // 예상
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -32,8 +29,7 @@ function setTask13() {
 	taskMap.title = "1-3. 국민 (4명)";
 	taskMap.startDate = "2020-11-08 19:33:00";
 	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
-	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
-	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
+	taskList.push(new Array(type, "비행장  ", "Lv. 8", "  28만 석유", 18,  0)); // 예상
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -45,7 +41,7 @@ function setTask14() {
 	taskMap.title = "1-4. 국민 (3명)";
 	taskMap.startDate = "2020-11-08 19:42:00";
 	taskList.push(new Array(type, "사령부  ", "Lv. 8", " 950만 식량", 11,  0 ));
-	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 23 ));
+	taskList.push(new Array(type, "대학    ", "Lv. 7", " 700만 골드", 10,  0 ));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -56,6 +52,7 @@ function setTask15() {
 	var type = "국민5";
 	taskMap.title = "1-5. 국민 (3명)";
 	taskMap.startDate = "2020-10-25 16:44:00";
+	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 23 ));
 	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 23 ));
 	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 23 ));
 	taskMap.taskList = taskList;
