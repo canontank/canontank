@@ -71,8 +71,13 @@ function setTask21() {
 	var taskMap = new Object();
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
-	taskMap.startDate = "2020-10-31 12:09:00";
-	taskList.push(new Array(type, "무장차량", "Lv. 5", "  25만 석유", 16,  4 ));
+	taskMap.startDate = "2020-11-15 12:05:00";
+	taskList.push(new Array(type, "정보전투", "Lv. 1", "  18만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보전투", "Lv. 2", "  19만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보전투", "Lv. 3", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보전투", "Lv. 4", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보전투", "Lv. 5", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보전투", "Lv. 6", "  20만 석유",  9,  0)); // 정보화
 	taskList.push(new Array(type, "엠알엘  ", "Lv. 5", "  25만 석유", 14,  6 ));
 	taskList.push(new Array(type, "박격포병", "Lv. 1", "1780만 식량", 14,  7)); // 디지털
 	taskMap.taskList = taskList;
@@ -86,6 +91,11 @@ function setTask22() {
 	taskMap.title = "2-2. 무기고 연구";
 	taskMap.startDate = "2020-11-08 04:16:00";
 	taskList.push(new Array(type, "정보수송", "Lv. 1", "  18만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보수송", "Lv. 2", "  19만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보수송", "Lv. 3", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보수송", "Lv. 4", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보수송", "Lv. 5", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보수송", "Lv. 6", "  20만 석유",  9,  0)); // 정보화
 	taskList.push(new Array(type, "전술헬기", "Lv. 5", "  25만 석유", 16,  4 ));
 	taskList.push(new Array(type, "강습차량", "Lv. 1", "1800만 식량", 14,  7)); // 디지털
 	taskMap.taskList = taskList;
