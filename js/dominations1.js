@@ -100,6 +100,32 @@ function setTask22() {
 	allTaskMapList.push(taskMap);
 }
 
+function setTask31() {
+	var taskList = new Array();
+	var taskMap = new Object();
+	var type = "도서1";
+	taskMap.title = "3-1. 도서1";
+	taskMap.startDate = "2020-11-17 20:38:00";
+	taskList.push(new Array(type, "긴급척령", "Lv. 3", "1100만 골드",  9,  9));
+	taskList.push(new Array(type, "긴급척령", "Lv. 4", "1500만 골드", 12,  0)); // 미확인
+	taskList.push(new Array(type, "긴급척령", "Lv. 5", "1800만 골드", 15,  0)); // 미확인
+	taskMap.taskList = taskList;
+	allTaskMapList.push(taskMap);
+}
+
+function setTask32() {
+	var taskList = new Array();
+	var taskMap = new Object();
+	var type = "도서2";
+	taskMap.title = "3-2. 도서";
+	taskMap.startDate = "2020-11-17 20:38:00";
+	taskList.push(new Array(type, "역공    ", "Lv. 3", "1100만 식량",  9,  9));
+	taskList.push(new Array(type, "역공    ", "Lv. 4", "1500만 식량", 12,  0)); // 미확인
+	taskList.push(new Array(type, "역공    ", "Lv. 5", "1800만 식량", 15,  0)); // 미확인
+	taskMap.taskList = taskList;
+	allTaskMapList.push(taskMap);
+}
+
 $(document).ready(function() {
 	try {
 		setTask11();
@@ -109,6 +135,8 @@ $(document).ready(function() {
 		setTask15();
 		setTask21();
 		setTask22();
+		setTask31();
+		setTask32();
 		setDominations();
 	} catch (e){
 		alert(e);
