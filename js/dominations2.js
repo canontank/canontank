@@ -6,6 +6,10 @@ function setTask11() {
 	taskMap.startDate = "2020-11-08 19:33:00";
 	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
 	taskList.push(new Array(type, "도서관  ", "Lv.15", "1800만 골드", 18,  0)); // 예상
+	taskList.push(new Array(type, "식량창고", "Lv.17", " 945만 골드", 11,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.17", " 945만 골드", 11,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.17", " 945만 골드", 11,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.17", " 945만 골드", 11,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -18,6 +22,10 @@ function setTask12() {
 	taskMap.startDate = "2020-11-08 19:33:00";
 	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
 	taskList.push(new Array(type, "용병캠프", "Lv.15", "1800만 식량", 18,  0)); // 예상
+	taskList.push(new Array(type, "골드창고", "Lv.17", " 945만 식량", 11,  0));
+	taskList.push(new Array(type, "골드창고", "Lv.17", " 945만 식량", 11,  0));
+	taskList.push(new Array(type, "골드창고", "Lv.17", " 945만 식량", 11,  0));
+	taskList.push(new Array(type, "골드창고", "Lv.17", " 945만 식량", 11,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -29,7 +37,10 @@ function setTask13() {
 	taskMap.title = "1-3. 국민 (4명)";
 	taskMap.startDate = "2020-11-08 19:33:00";
 	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
-	taskList.push(new Array(type, "비행장  ", "Lv. 8", "  28만 석유", 18,  0)); // 예상
+	taskList.push(new Array(type, "비행장  ", "Lv. 8", "  28만 석유", 17,  0));
+	taskList.push(new Array(type, "공장    ", "Lv.14", "28.5만 석유", 17, 12));
+	taskList.push(new Array(type, "비행장  ", "Lv. 8", "  28만 석유", 17,  0));
+	taskList.push(new Array(type, "공장    ", "Lv.14", "28.5만 석유", 17, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -40,7 +51,8 @@ function setTask14() {
 	var type = "국민4";
 	taskMap.title = "1-4. 국민 (3명)";
 	taskMap.startDate = "2020-11-21 05:10:00";
-	taskList.push(new Array(type, "대학    ", "Lv. 7", " 700만 골드", 10,  0 ));
+	taskList.push(new Array(type, "대학    ", "Lv. 7", " 700만 골드", 10,  0));
+	taskList.push(new Array(type, "사령부  ", "Lv. 9", "1070만 식량", 11, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
