@@ -3,9 +3,9 @@ function setTask11() {
 	var taskMap = new Object();
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (4명)";
-	taskMap.startDate = "2020-11-08 19:33:00";
-	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
-	taskList.push(new Array(type, "도서관  ", "Lv.15", "1800만 골드", 18,  0)); // 예상
+	taskMap.startDate = "2020-11-24 23:50:00";
+	taskList.push(new Array(type, "도서관  ", "Lv.15", "1800만 골드", 15,  0)); // 예상
+	taskList.push(new Array(type, "용병캠프", "Lv.15", "1800만 식량", 18,  0)); // 예상
 	taskList.push(new Array(type, "식량창고", "Lv.17", " 945만 골드", 11,  0));
 	taskList.push(new Array(type, "식량창고", "Lv.17", " 945만 골드", 11,  0));
 	taskList.push(new Array(type, "식량창고", "Lv.17", " 945만 골드", 11,  0));
@@ -19,9 +19,12 @@ function setTask12() {
 	var taskMap = new Object();
 	var type = "국민2";
 	taskMap.title = "1-2. 국민 (4명)";
-	taskMap.startDate = "2020-11-08 19:33:00";
-	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
-	taskList.push(new Array(type, "용병캠프", "Lv.15", "1800만 식량", 18,  0)); // 예상
+	taskMap.startDate = "2020-11-24 23:10:00";
+	taskList.push(new Array(type, "미술관  ", "Lv. 1", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 2", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 3", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 4", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 5", " 700만 식량",  5,  0));
 	taskList.push(new Array(type, "골드창고", "Lv.17", " 945만 식량", 11,  0));
 	taskList.push(new Array(type, "골드창고", "Lv.17", " 945만 식량", 11,  0));
 	taskList.push(new Array(type, "골드창고", "Lv.17", " 945만 식량", 11,  0));
@@ -35,12 +38,13 @@ function setTask13() {
 	var taskMap = new Object();
 	var type = "국민3";
 	taskMap.title = "1-3. 국민 (4명)";
-	taskMap.startDate = "2020-11-08 19:33:00";
-	taskList.push(new Array(type, "타운센터", "Lv. 1", "1850만 골드", 16,  7));
-	taskList.push(new Array(type, "비행장  ", "Lv. 8", "  28만 석유", 17,  0));
-	taskList.push(new Array(type, "공장    ", "Lv.14", "28.5만 석유", 17, 12));
-	taskList.push(new Array(type, "비행장  ", "Lv. 8", "  28만 석유", 17,  0));
-	taskList.push(new Array(type, "공장    ", "Lv.14", "28.5만 석유", 17, 12));
+	taskMap.startDate = "2020-11-24 23:10:00";
+	taskList.push(new Array(type, "미술관  ", "Lv. 1", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 2", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 3", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 4", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 5", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 23 ));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -49,10 +53,14 @@ function setTask14() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민4";
-	taskMap.title = "1-4. 국민 (3명)";
-	taskMap.startDate = "2020-11-21 05:10:00";
-	taskList.push(new Array(type, "대학    ", "Lv. 7", " 700만 골드", 10,  0));
-	taskList.push(new Array(type, "사령부  ", "Lv. 9", "1070만 식량", 11, 12));
+	taskMap.title = "1-4. 국민 (2명)";
+	taskMap.startDate = "2020-11-24 23:10:00";
+	taskList.push(new Array(type, "미술관  ", "Lv. 1", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 2", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 3", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 4", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "미술관  ", "Lv. 5", " 700만 식량",  5,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 23 ));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -61,11 +69,14 @@ function setTask15() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민5";
-	taskMap.title = "1-5. 국민 (3명)";
-	taskMap.startDate = "2020-11-10 22:47:00";
-	taskList.push(new Array(type, "숲      ", "Lv. 1", " 725만 골드", 14, 17 ));
-	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 23 ));
-	taskList.push(new Array(type, "유정    ", "Lv.12", "1800만 골드", 15, 23 ));
+	taskMap.title = "1-5. 국민 (4명)";
+	taskMap.startDate = "2020-11-21 05:10:00";
+	taskList.push(new Array(type, "대학    ", "Lv. 7", " 700만 골드", 10,  0));
+	taskList.push(new Array(type, "비행장  ", "Lv. 8", "  28만 석유", 17,  0));
+	taskList.push(new Array(type, "공장    ", "Lv.14", "28.5만 석유", 17, 12));
+	taskList.push(new Array(type, "비행장  ", "Lv. 8", "  28만 석유", 17,  0));
+	taskList.push(new Array(type, "공장    ", "Lv.14", "28.5만 석유", 17, 12));
+	taskList.push(new Array(type, "사령부  ", "Lv. 9", "1070만 식량", 11, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
