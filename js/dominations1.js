@@ -113,8 +113,8 @@ function setTask32() {
 	var taskMap = new Object();
 	var type = "도서2";
 	taskMap.title = "3-2. 도서";
-	taskMap.startDate = "2020-11-17 20:38:00";
-	taskList.push(new Array(type, "역공    ", "Lv. 3", "1100만 식량",  9,  9));
+	taskMap.startDate = "2020-11-27 22:45:00";
+	taskList.push(new Array(type, "돌격대대", "Lv. 1", "   9만 식량", 11,  6));
 	taskList.push(new Array(type, "역공    ", "Lv. 4", "1500만 식량", 12,  0)); // 미확인
 	taskList.push(new Array(type, "역공    ", "Lv. 5", "1800만 식량", 15,  0)); // 미확인
 	taskMap.taskList = taskList;
