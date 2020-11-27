@@ -100,9 +100,9 @@ function setTask31() {
 	var taskMap = new Object();
 	var type = "도서1";
 	taskMap.title = "3-1. 도서1";
-	taskMap.startDate = "2020-11-17 20:38:00";
-	taskList.push(new Array(type, "긴급척령", "Lv. 3", "1100만 골드",  9,  9));
-	taskList.push(new Array(type, "긴급척령", "Lv. 4", "1500만 골드", 12,  0)); // 미확인
+	taskMap.startDate = "2020-11-27 22:25:00";
+	taskList.push(new Array(type, "공중요격", "Lv. 1", "   9만 석유",  2,  5));
+	taskList.push(new Array(type, "긴급척령", "Lv. 4", "  17만 석유", 11,  6));
 	taskList.push(new Array(type, "긴급척령", "Lv. 5", "1800만 골드", 15,  0)); // 미확인
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
