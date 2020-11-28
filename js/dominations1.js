@@ -114,7 +114,7 @@ function setTask32() {
 	var type = "도서2";
 	taskMap.title = "3-2. 도서";
 	taskMap.startDate = "2020-11-27 22:45:00";
-	taskList.push(new Array(type, "돌격대대", "Lv. 1", "   9만 석유", 11,  6));
+	taskList.push(new Array(type, "돌격대대", "Lv. 1", "   9만 석유",  2,  5));
 	taskList.push(new Array(type, "역공    ", "Lv. 4", "  17만 석유", 11,  6));
 	taskList.push(new Array(type, "역공    ", "Lv. 5", "  20만 석유", 15,  0)); // 미확인
 	taskMap.taskList = taskList;
