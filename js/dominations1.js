@@ -19,6 +19,12 @@ function setTask12() {
 	var type = "국민2";
 	taskMap.title = "1-2. 국민 (4명)";
 	taskMap.startDate = "2021-01-15 00:00:00";
+	taskList.push(new Array(type, "골드저장", "Lv. 9", "  30만 식량",  0, 18));
+	taskList.push(new Array(type, "식량저장", "Lv. 9", "  30만 골드",  0, 18));
+	taskList.push(new Array(type, "골드저장", "Lv.10", "  70만 식량",  1, 14));
+	taskList.push(new Array(type, "식량저장", "Lv.10", "  70만 골드",  1, 14));
+	taskList.push(new Array(type, "골드저장", "Lv.11", " 140만 식량",  5,  0));
+	taskList.push(new Array(type, "식량저장", "Lv.11", " 140만 골드",  5,  0));
 	taskList.push(new Array(type, "대학    ", "Lv.10", "1200만 골드", 14, 10));
 	taskList.push(new Array(type, "의회    ", "Lv. 4", " 600만 골드", 12, 10));
 	taskMap.taskList = taskList;
@@ -30,7 +36,11 @@ function setTask13() {
 	var taskMap = new Object();
 	var type = "국민3";
 	taskMap.title = "1-3. 국민 (4명)";
-	taskMap.startDate = "2021-01-15 00:00:00";
+	taskMap.startDate = "2020-12-27 18:00:00";
+	taskList.push(new Array(type, "캐러밴  ", "Lv.12", " 140만 식량",  3,  5));
+	taskList.push(new Array(type, "캐러밴  ", "Lv.12", " 140만 식량",  3,  5));
+	taskList.push(new Array(type, "캐러밴  ", "Lv.12", " 140만 식량",  3,  5));
+	taskList.push(new Array(type, "캐러밴  ", "Lv.12", " 140만 식량",  3,  5));
 	taskList.push(new Array(type, "식량창고", "Lv.17", " 945만 골드", 11,  0));
 	taskList.push(new Array(type, "식량창고", "Lv.17", " 945만 골드", 11,  0));
 	taskMap.taskList = taskList;
@@ -42,7 +52,11 @@ function setTask14() {
 	var taskMap = new Object();
 	var type = "국민4";
 	taskMap.title = "1-4. 국민 (4명)";
-	taskMap.startDate = "2021-01-15 00:00:00";
+	taskMap.startDate = "2020-12-29 09:00:00";
+	taskList.push(new Array(type, "농장    ", "Lv.12", " 140만 골드",  3,  5));
+	taskList.push(new Array(type, "농장    ", "Lv.12", " 140만 골드",  3,  5));
+	taskList.push(new Array(type, "농장    ", "Lv.12", " 140만 골드",  3,  5));
+	taskList.push(new Array(type, "농장    ", "Lv.12", " 140만 골드",  3,  5));
 	taskList.push(new Array(type, "골드창고", "Lv.17", " 945만 식량", 11,  0));
 	taskList.push(new Array(type, "골드창고", "Lv.17", " 945만 식량", 11,  0));
 	taskMap.taskList = taskList;
