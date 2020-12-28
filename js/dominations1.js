@@ -97,12 +97,12 @@ function setTask21() {
 	taskMap.title = "2-1. 무기고 연구";
 	taskMap.startDate = "2020-12-27 07:40:00";
 	taskList.push(new Array(type, "정보전투", "Lv. 6", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보폭격", "Lv. 1", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보폭격", "Lv. 2", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보폭격", "Lv. 3", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보폭격", "Lv. 4", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보폭격", "Lv. 5", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보폭격", "Lv. 6", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보정찰", "Lv. 1", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보정찰", "Lv. 2", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보정찰", "Lv. 3", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보정찰", "Lv. 4", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보정찰", "Lv. 5", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보정찰", "Lv. 6", "  20만 석유",  9,  0)); // 정보화
 	taskList.push(new Array(type, "강습차량", "Lv. 1", "1800만 식량", 14,  7)); // 디지털
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
@@ -113,14 +113,13 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2020-12-20 16:44:00";
-	taskList.push(new Array(type, "정보수송", "Lv. 6", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보정찰", "Lv. 1", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보정찰", "Lv. 2", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보정찰", "Lv. 3", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보정찰", "Lv. 4", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보정찰", "Lv. 5", "  20만 석유",  9,  0)); // 정보화
-	taskList.push(new Array(type, "정보정찰", "Lv. 6", "  20만 석유",  9,  0)); // 정보화
+	taskMap.startDate = "2020-12-28 22:36:00";
+	taskList.push(new Array(type, "정보폭격", "Lv. 1", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보폭격", "Lv. 2", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보폭격", "Lv. 3", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보폭격", "Lv. 4", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보폭격", "Lv. 5", "  20만 석유",  9,  0)); // 정보화
+	taskList.push(new Array(type, "정보폭격", "Lv. 6", "  20만 석유",  9,  0)); // 정보화
 	taskList.push(new Array(type, "전술헬기", "Lv. 5", "  25만 석유", 16,  4 ));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
