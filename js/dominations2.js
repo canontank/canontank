@@ -7,6 +7,7 @@ function setTask11() {
 	taskList.push(new Array(type, "농장    ", "Lv.13", " 200만 골드",  5,  0));
 	taskList.push(new Array(type, "농장    ", "Lv.14", " 280만 골드",  6,  0));
 	taskList.push(new Array(type, "농장    ", "Lv.14", " 280만 골드",  6,  0));
+	taskList.push(new Array(type, "요새    ", "Lv.10", "  29만 석유", 16,  0));
 	taskList.push(new Array(type, "공장    ", "Lv.14", "28.5만 석유", 17, 12));
 	taskList.push(new Array(type, "비행장  ", "Lv. 8", "  28만 석유", 17,  0));
 	taskList.push(new Array(type, "공장    ", "Lv.14", "28.5만 석유", 17, 12));
@@ -23,6 +24,7 @@ function setTask12() {
 	taskList.push(new Array(type, "농장    ", "Lv.13", " 200만 골드",  5,  0));
 	taskList.push(new Array(type, "농장    ", "Lv.14", " 280만 골드",  6,  0));
 	taskList.push(new Array(type, "농장    ", "Lv.14", " 280만 골드",  6,  0));
+	taskList.push(new Array(type, "요새    ", "Lv.10", "  29만 석유", 16,  0));
 	taskList.push(new Array(type, "사령부  ", "Lv. 9", "1070만 식량", 11, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
