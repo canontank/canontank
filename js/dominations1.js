@@ -125,10 +125,9 @@ function setTask31() {
 	var taskMap = new Object();
 	var type = "도서1";
 	taskMap.title = "3-1. 도서1";
-	taskMap.startDate = "2020-12-25 16:45:00";
-	taskList.push(new Array(type, "역공    ", "Lv. 4", "  17만 석유", 10,  5));
-	taskList.push(new Array(type, "역공    ", "Lv. 5", "  20만 석유", 15, 22));
-	taskList.push(new Array(type, "돌격대대", "Lv. 5", "  20만 석유", 15, 22));
+	taskMap.startDate = "2021-01-05 00:40:00";
+	taskList.push(new Array(type, "공중요격", "Lv. 4", "  17만 석유",  9,  4));
+	taskList.push(new Array(type, "공중요격", "Lv. 5", "  20만 석유", 15, 22));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -140,7 +139,8 @@ function setTask32() {
 	taskMap.title = "3-2. 도서2";
 	taskMap.startDate = "2021-01-04 23:40:00";
 	taskList.push(new Array(type, "돌격대대", "Lv. 4", "  17만 석유", 10,  5));
-	taskList.push(new Array(type, "공중요격", "Lv. 5", "  20만 석유", 15, 22));
+	taskList.push(new Array(type, "돌격대대", "Lv. 5", "  20만 석유", 15, 22));
+	taskList.push(new Array(type, "역공    ", "Lv. 5", "  20만 석유", 15, 22));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
