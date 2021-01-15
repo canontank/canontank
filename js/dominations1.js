@@ -5,6 +5,7 @@ function setTask11() {
 	taskMap.title = "1-1. 국민 (4명)";
 	taskMap.startDate = "2021-01-10 13:43:00";
 	taskList.push(new Array(type, "공장    ", "Lv.14", "28.5만 석유", 17, 12));
+	taskList.push(new Array(type, "요새    ", "Lv.10", "  29만 석유", 16,  0));
 	taskList.push(new Array(type, "벙커    ", "Lv. 8", "  28만 석유", 16,  0));
 	taskList.push(new Array(type, "벙커    ", "Lv. 8", "  28만 석유", 16,  0));
 	taskList.push(new Array(type, "정유공장", "Lv. 9", "1050만 골드", 12,  0));
@@ -19,6 +20,7 @@ function setTask12() {
 	taskMap.title = "1-2. 국민 (4명)";
 	taskMap.startDate = "2021-01-11 22:16:00";
 	taskList.push(new Array(type, "대학    ", "Lv.10", "1200만 골드", 14, 10));
+	taskList.push(new Array(type, "요새    ", "Lv.10", "  29만 석유", 16,  0));
 	taskList.push(new Array(type, "의회    ", "Lv. 4", " 600만 골드", 12, 10));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
