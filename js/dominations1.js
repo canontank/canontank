@@ -38,6 +38,12 @@ function setTask13() {
 	taskList.push(new Array(type, "캐러밴  ", "Lv.14", " 280만 식량",  6,  0));
 	taskList.push(new Array(type, "식량창고", "Lv.17", " 945만 골드", 11,  0));
 	taskList.push(new Array(type, "식량창고", "Lv.17", " 945만 골드", 11,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.12", " 200만 골드",  6,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.13", " 320만 골드",  7,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.14", " 470만 골드",  8,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.15", " 600만 골드",  9,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.16", " 850만 골드", 10, 12));
+	taskList.push(new Array(type, "식량창고", "Lv.17", "1050만 골드", 11,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -51,6 +57,12 @@ function setTask14() {
 	taskList.push(new Array(type, "농장    ", "Lv.14", " 280만 골드",  6,  0));
 	taskList.push(new Array(type, "골드창고", "Lv.17", " 945만 식량", 11,  0));
 	taskList.push(new Array(type, "골드창고", "Lv.17", " 945만 식량", 11,  0));
+	taskList.push(new Array(type, "골드창고", "Lv.12", " 200만 식량",  6,  0));
+	taskList.push(new Array(type, "골드창고", "Lv.13", " 320만 식량",  7,  0));
+	taskList.push(new Array(type, "골드창고", "Lv.14", " 470만 식량",  8,  0));
+	taskList.push(new Array(type, "골드창고", "Lv.15", " 600만 식량",  9,  0));
+	taskList.push(new Array(type, "골드창고", "Lv.16", " 850만 식량", 10, 12));
+	taskList.push(new Array(type, "골드창고", "Lv.17", "1050만 식량", 11,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
