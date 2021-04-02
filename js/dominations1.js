@@ -45,8 +45,7 @@ function setTask14() {
 	var taskMap = new Object();
 	var type = "국민4";
 	taskMap.title = "1-4. 국민 (4명)";
-	taskMap.startDate = "2021-03-26 11:19:00";
-	taskList.push(new Array(type, "골드창고", "Lv.13", " 320만 식량",  7,  0));
+	taskMap.startDate = "2021-04-02 14:29:00";
 	taskList.push(new Array(type, "골드창고", "Lv.14", " 470만 식량",  8,  0));
 	taskList.push(new Array(type, "골드창고", "Lv.15", " 600만 식량",  9,  0));
 	taskList.push(new Array(type, "골드창고", "Lv.16", " 850만 식량", 10, 12));
