@@ -36,6 +36,7 @@ function setTask13() {
 	taskMap.title = "1-3. 국민 (4명)";
 	taskMap.startDate = "2021-04-22 10:51:00";
 	taskList.push(new Array(type, "골드창고", "Lv.17", "1050만 식량", 11,  0));
+	taskList.push(new Array(type, "사령부  ", "Lv. 9", "1100만 식량", 11, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
