@@ -63,6 +63,11 @@ function setTask15() {
 	taskMap.title = "1-5. 국민 (4명)";
 	taskMap.startDate = "2021-05-17 21:03:00";
 	taskList.push(new Array(type, "방공타워", "Lv. 9", "1700만 골드", 14, 12));
+	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
+	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
+	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
+	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
+	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
