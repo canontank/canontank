@@ -106,7 +106,7 @@ $(document).ready(function() {
 		setTask21();
 		setTask22();
 		setDominations();
-	} catch (e){
+	} catch (e) {
 		alert(e);
 	}
 });
