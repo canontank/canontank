@@ -87,7 +87,7 @@ function setTask21() {
 	taskList.push(new Array(type, "박격포  ", "Lv.16", "2140만 식량", 15,  6));
 	taskList.push(new Array(type, "호송차  ", "Lv.16", "2140만 식량", 15,  6));
 	taskList.push(new Array(type, "헬리콥터", "Lv.16", "2140만 식량", 15,  6));
-	taskList.push(new Array(type, "강습차량", "Lv.16", "1820만 식량", 12, 23));
+	taskList.push(new Array(type, "강습차량", "Lv.16", "2140만 식량", 15,  6));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -101,7 +101,7 @@ function setTask22() {
 	taskList.push(new Array(type, "보병    ", "Lv.16", "1500만 식량", 15,  6));
 	taskList.push(new Array(type, "소총수  ", "Lv.16", "1500만 식량", 15,  6));
 	taskList.push(new Array(type, "돌격대  ", "Lv.16", "1550만 식량", 15,  6));
-	taskList.push(new Array(type, "전차    ", "Lv.16", "1820만 식량", 12, 23));
+	taskList.push(new Array(type, "전차    ", "Lv.16", "2140만 식량", 15,  6));
 	taskList.push(new Array(type, "엔지니어", "Lv.16", "1550만 식량", 15,  6));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
