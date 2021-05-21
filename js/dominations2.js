@@ -35,10 +35,13 @@ function setTask13() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민3";
-	taskMap.title = "1-3. 국민 (4명)";
+	taskMap.title = "1-3. 국민 (4명 → 5명)";
 	taskMap.startDate = "2021-05-12 00:25:00";
 	taskList.push(new Array(type, "사령부  ", "Lv. 9", "1100만 식량", 11, 12));
 	taskList.push(new Array(type, "용병캠프", "Lv.14", "1800만 식량", 16,  0));
+	taskList.push(new Array(type, "훈련소  ", "Lv.13", "1800만 식량", 14,  0));
+	taskList.push(new Array(type, "훈련소  ", "Lv.13", "1800만 식량", 14,  0));
+	taskList.push(new Array(type, "훈련소  ", "Lv.13", "1800만 식량", 14,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
