@@ -32,7 +32,6 @@ function setTask12() {
 	taskList.push(new Array(type, "대전차포", "Lv.11", "1900만 골드", 17,  0));
 	taskList.push(new Array(type, "대전차포", "Lv.11", "1900만 골드", 17,  0));
 	taskList.push(new Array(type, "대전차포", "Lv.11", "1900만 골드", 17,  0));
-	taskList.push(new Array(type, "대전차포", "Lv.11", "1900만 골드", 17,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
