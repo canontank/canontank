@@ -43,6 +43,11 @@ function setTask13() {
 	taskMap.title = "1-3. 국민 (5명 → 4명)";
 	taskMap.startDate = "2021-07-07 11:00:00";
 	taskList.push(new Array(type, "훈련소  ", "Lv.13", "1800만 식량", 14,  0));
+	taskList.push(new Array(type, "의회    ", "Lv. 6", "1600만 골드", 16, 12));
+	taskList.push(new Array(type, "타워    ", "Lv.15", "1710만 골드", 13,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.15", "1710만 골드", 13,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.15", "1710만 골드", 13,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.15", "1710만 골드", 13,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -68,6 +73,10 @@ function setTask15() {
 	taskMap.title = "1-5. 국민 (4명)";
 	taskMap.startDate = "2021-07-07 11:00:00";
 	taskList.push(new Array(type, "방공타워", "Lv.11", "1900만 골드", 16, 12));
+	taskList.push(new Array(type, "타워    ", "Lv.15", "1710만 골드", 13,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.15", "1710만 골드", 13,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.15", "1710만 골드", 13,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.15", "1710만 골드", 13,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
