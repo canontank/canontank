@@ -79,6 +79,7 @@ function setTask21() {
 	taskMap.title = "2-1. 무기고 연구";
 	taskMap.startDate = "2021-08-03 12:20:00";
 	taskList.push(new Array(type, "공병    ", "Lv. 1", "1350만 식량", 13,  8 ));
+	taskList.push(new Array(type, "궁수    ", "Lv. 1", "1350만 식량", 13,  8 ));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
