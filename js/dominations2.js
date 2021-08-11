@@ -36,6 +36,14 @@ function setTask13() {
 	taskMap.title = "1-3. 국민 (5명)";
 	taskMap.startDate = "2021-08-11 17:40:00";
 	taskList.push(new Array(type, "훈련소  ", "Lv.13", "1800만 식량", 14,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -88,6 +96,7 @@ function setTask22() {
 	taskMap.title = "2-2. 무기고 연구";
 	taskMap.startDate = "2021-08-04 15:00:00";
 	taskList.push(new Array(type, "보병    ", "Lv. 1", "1350만 식량", 14,  6 ));
+	taskList.push(new Array(type, "전차    ", "Lv. 1", "1800만 식량", 14,  6 ));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
