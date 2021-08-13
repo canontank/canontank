@@ -35,14 +35,14 @@ function setTask13() {
 	taskMap.title = "1-3. 국민 (5명)";
 	taskMap.startDate = "2021-08-11 17:40:00";
 	taskList.push(new Array(type, "훈련소  ", "Lv.13", "1800만 식량", 14,  0));
-	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
-	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
-	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
-	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
-	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
-	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
-	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
-	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 식량",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 골드",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 골드",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 골드",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 골드",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 골드",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 골드",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 골드",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 골드",  8,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
