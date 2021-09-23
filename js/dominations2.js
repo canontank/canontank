@@ -36,6 +36,8 @@ function setTask13() {
 	taskList.push(new Array(type, "방공타워", "Lv. 9", "1700만 골드", 14, 12));
 	taskList.push(new Array(type, "방공타워", "Lv.10", "1800만 골드", 16,  6));
 	taskList.push(new Array(type, "방공타워", "Lv.11", "1900만 골드", 16, 12));
+	taskList.push(new Array(type, "방공타워", "Lv.12", "2000만 골드", 17,  0));
+	taskList.push(new Array(type, "방공타워", "Lv.12", "2000만 골드", 17,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -65,6 +67,10 @@ function setTask15() {
 	taskList.push(new Array(type, "방공타워", "Lv.11", "1900만 골드", 16, 12));
 	taskList.push(new Array(type, "방공타워", "Lv.11", "1900만 골드", 16, 12));
 	taskList.push(new Array(type, "방공타워", "Lv.11", "1900만 골드", 16, 12));
+	taskList.push(new Array(type, "방공타워", "Lv.12", "2000만 골드", 17,  0));
+	taskList.push(new Array(type, "방공타워", "Lv.12", "2000만 골드", 17,  0));
+	taskList.push(new Array(type, "방공타워", "Lv.12", "2000만 골드", 17,  0));
+	taskList.push(new Array(type, "방공타워", "Lv.12", "2000만 골드", 17,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
