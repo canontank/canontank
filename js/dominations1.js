@@ -34,6 +34,11 @@ function setTask13() {
 	taskMap.startDate = "2021-09-13 16:55:00";
 	taskList.push(new Array(type, "타워    ", "Lv.15", "1710만 골드", 13,  0));
 	taskList.push(new Array(type, "조선소  ", "Lv.13", "1300만 골드", 14,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv. 8", " 525만 골드",  8,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv. 8", " 525만 골드",  8,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv. 9", " 750만 골드", 10,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv. 9", " 750만 골드", 10,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv. 9", " 750만 골드", 10,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -63,6 +68,11 @@ function setTask15() {
 	taskMap.startDate = "2021-09-13 16:55:00";
 	taskList.push(new Array(type, "타워    ", "Lv.15", "1710만 골드", 13,  0));
 	taskList.push(new Array(type, "타워    ", "Lv.15", "1710만 골드", 13,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv. 8", " 525만 골드",  8,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv. 8", " 525만 골드",  8,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv. 8", " 525만 골드",  8,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv. 9", " 750만 골드", 10,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv. 9", " 750만 골드", 10,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
