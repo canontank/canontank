@@ -78,13 +78,12 @@ function setTask21() {
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
 	taskMap.startDate = "2021-10-04 16:01:00";
-	taskList.push(new Array(type, "헬리곱터", "Lv. 1", "1520만 식량", 13,  7 ));
-	taskList.push(new Array(type, "강습차량", "Lv. 1", "1780만 식량", 14,  6 ));
-	taskList.push(new Array(type, "포병대  ", "Lv. 2", "1800만 식량", 15,  5 ));
-	taskList.push(new Array(type, "헬리곱터", "Lv. 2", "1800만 식량", 15,  5 ));
-	taskList.push(new Array(type, "강습차량", "Lv. 2", "1800만 식량", 15,  5 ));
-	taskList.push(new Array(type, "박격포병", "Lv. 2", "1800만 식량", 15,  5 ));
-	taskList.push(new Array(type, "호송차  ", "Lv. 2", "1800만 식량", 15,  5 ));
+	taskList.push(new Array(type, "정예헬기", "Lv. 1", "1520만 식량", 13,  7 ));
+	taskList.push(new Array(type, "명예포병", "Lv. 1", "1780만 식량", 14,  7 ));
+	taskList.push(new Array(type, "강습차량", "Lv. 2", "1780만 식량", 14,  7 ));
+	taskList.push(new Array(type, "고급공병", "Lv. 1", "1600만 식량", 15,  5 ));
+	taskList.push(new Array(type, "고급박격", "Lv. 2", "1800만 식량", 15,  6 ));
+	taskList.push(new Array(type, "고급헬기", "Lv. 2", "1800만 식량", 15,  6 ));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -95,10 +94,13 @@ function setTask22() {
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
 	taskMap.startDate = "2021-10-04 00:02:00";
-	taskList.push(new Array(type, "호송차  ", "Lv. 1", "1505만 식량", 13,  7 ));
-	taskList.push(new Array(type, "돌격대  ", "Lv. 2", "1800만 식량", 15,  5 ));
-	taskList.push(new Array(type, "전차    ", "Lv. 2", "1800만 식량", 15,  5 ));
-	taskList.push(new Array(type, "공병    ", "Lv. 2", "1800만 식량", 15,  5 ));
+	taskList.push(new Array(type, "숙련호송", "Lv. 1", "1505만 식량", 13,  7 ));
+	taskList.push(new Array(type, "명예박격", "Lv. 1", "1800만 식량", 14,  7 ));
+	taskList.push(new Array(type, "사막돌격", "Lv. 1", "1600만 식량", 15,  6 ));
+	taskList.push(new Array(type, "고급전차", "Lv. 1", "2150만 식량", 15,  6 ));
+	taskList.push(new Array(type, "고급포병", "Lv. 1", "1800만 식량", 15,  6 ));
+	taskList.push(new Array(type, "고급호송", "Lv. 1", "1800만 식량", 15,  6 ));
+	taskList.push(new Array(type, "강습차량", "Lv. 3", "1800만 식량", 15,  6 ));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
