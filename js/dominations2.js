@@ -5,6 +5,13 @@ function setTask11() {
 	taskMap.title = "1-1. 국민 (3명)";
 	taskMap.startDate = "2021-10-10 18:54:00";
 	taskList.push(new Array(type, "대전차포", "Lv.11", "1900만 골드", 17,  0));
+	taskList.push(new Array(type, "씨지아이", "Lv. 2", "  11만 석유", 16,  0));
+	taskList.push(new Array(type, "씨지아이", "Lv. 2", "  11만 석유", 16,  0));
+	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 815만 골드", 15,  3));
+	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 815만 골드", 15,  3));
+	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 815만 골드", 15,  3));
+	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 815만 골드", 15,  3));
+	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 815만 골드", 15,  3));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -17,6 +24,10 @@ function setTask12() {
 	taskMap.startDate = "2021-10-04 00:02:00";
 	taskList.push(new Array(type, "대전차포", "Lv.11", "1900만 골드", 17,  0));
 	taskList.push(new Array(type, "대전차포", "Lv.11", "1900만 골드", 17,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.11", " 760만 골드",  9,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.11", " 760만 골드",  9,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.11", " 760만 골드",  9,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.11", " 760만 골드",  9,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -49,6 +60,10 @@ function setTask14() {
 	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 골드",  8,  0));
 	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 골드",  8,  0));
 	taskList.push(new Array(type, "타워    ", "Lv.10", " 600만 골드",  8,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.11", " 760만 골드",  9,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.11", " 760만 골드",  9,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.11", " 760만 골드",  9,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.11", " 760만 골드",  9,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
