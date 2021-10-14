@@ -74,9 +74,9 @@ function setTask21() {
 	var taskMap = new Object();
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
-	taskMap.startDate = "2021-10-03 23:00:00";
-	taskList.push(new Array(type, "미국    ", "Lv.16", "  14만 석유", 11, 11));
+	taskMap.startDate = "2021-10-14 19:48:00";
 	taskList.push(new Array(type, "러시아  ", "Lv.16", " 900만 골드", 11, 11));
+	taskList.push(new Array(type, "알렉산더", "Lv.16", "   4만 석유",  1, 22));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -86,9 +86,11 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2021-10-03 23:00:00";
-	taskList.push(new Array(type, "에티오피", "Lv.16", "  14만 석유", 11, 11));
-	taskList.push(new Array(type, "필리핀  ", "Lv.16", "   1만 석유",  1,  0));
+	taskMap.startDate = "2021-10-14 19:48:00";
+	taskList.push(new Array(type, "필리핀  ", "Lv. 1", "   1만 석유",  1,  0));
+	taskList.push(new Array(type, "필리핀  ", "Lv. 2", "   2만 석유",  2,  0));
+	taskList.push(new Array(type, "필리핀  ", "Lv. 3", "   3만 석유",  3,  0));
+	taskList.push(new Array(type, "필리핀  ", "Lv. 4", "   4만 석유",  4,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
