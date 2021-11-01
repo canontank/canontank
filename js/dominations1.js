@@ -6,6 +6,7 @@ function setTask11() {
 	taskMap.startDate = "2021-10-21 16:00:00";
 	taskList.push(new Array(type, "유정    ", "Lv.13", "2000만 골드", 16, 12));
 	taskList.push(new Array(type, "대전차포", "Lv.11", "1900만 골드", 17,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.11", "1900만 골드", 17,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
