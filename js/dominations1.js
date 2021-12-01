@@ -8,6 +8,11 @@ function setTask11() {
 	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
 	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
 	taskList.push(new Array(type, "보루    ", "Lv. 3", " 560만 골드", 12,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 4", " 720만 골드", 14,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 4", " 720만 골드", 14,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 4", " 720만 골드", 14,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 4", " 720만 골드", 14,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 4", " 720만 골드", 14,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -53,6 +58,10 @@ function setTask14() {
 	taskList.push(new Array(type, "방공타워", "Lv.12", "2000만 골드", 17,  0));
 	taskList.push(new Array(type, "방공타워", "Lv.12", "2000만 골드", 17,  0));
 	taskList.push(new Array(type, "방공타워", "Lv.12", "2000만 골드", 17,  0));
+	taskList.push(new Array(type, "박격포  ", "Lv.10", "1530만 골드", 16,  0));
+	taskList.push(new Array(type, "박격포  ", "Lv.10", "1530만 골드", 16,  0));
+	taskList.push(new Array(type, "박격포  ", "Lv.10", "1530만 골드", 16,  0));
+	taskList.push(new Array(type, "박격포  ", "Lv.10", "1530만 골드", 16,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -66,6 +75,10 @@ function setTask15() {
 	taskList.push(new Array(type, "저격타워", "Lv. 6", "1100만 골드", 11,  0));
 	taskList.push(new Array(type, "저격타워", "Lv. 7", "1160만 골드", 11, 12));
 	taskList.push(new Array(type, "저격타워", "Lv. 8", "1270만 골드", 12,  0));
+	taskList.push(new Array(type, "저격타워", "Lv. 9", "1400만 골드", 13,  0));
+	taskList.push(new Array(type, "저격타워", "Lv. 9", "1400만 골드", 13,  0));
+	taskList.push(new Array(type, "저격타워", "Lv. 9", "1400만 골드", 13,  0));
+	taskList.push(new Array(type, "저격타워", "Lv. 9", "1400만 골드", 13,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
