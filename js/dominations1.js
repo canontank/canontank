@@ -35,6 +35,11 @@ function setTask13() {
 	taskMap.startDate = "2021-11-25 21:13:00";
 	taskList.push(new Array(type, "수비대  ", "Lv. 9", " 750만 골드", 10,  0));
 	taskList.push(new Array(type, "수비대  ", "Lv. 9", " 750만 골드", 10,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.10", " 925만 골드", 12,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.10", " 925만 골드", 12,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.10", " 925만 골드", 12,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.10", " 925만 골드", 12,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.10", " 925만 골드", 12,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
