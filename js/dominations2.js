@@ -20,6 +20,10 @@ function setTask12() {
 	taskMap.title = "1-2. 국민 (4명)";
 	taskMap.startDate = "2021-12-03 21:36:00";
 	taskList.push(new Array(type, "타워    ", "Lv.11", " 760만 골드",  9,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.12", "1121만 골드", 10,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.12", "1121만 골드", 10,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.12", "1121만 골드", 10,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.12", "1121만 골드", 10,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -46,6 +50,10 @@ function setTask14() {
 	taskMap.startDate = "2021-11-28 02:48:00";
 	taskList.push(new Array(type, "타워    ", "Lv.11", " 760만 골드",  9,  0));
 	taskList.push(new Array(type, "타워    ", "Lv.11", " 760만 골드",  9,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.12", "1121만 골드", 10,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.12", "1121만 골드", 10,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.12", "1121만 골드", 10,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.12", "1121만 골드", 10,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
