@@ -21,8 +21,13 @@ function setTask12() {
 	var taskMap = new Object();
 	var type = "국민2";
 	taskMap.title = "1-2. 국민 (2명)";
-	taskMap.startDate = "2021-11-28 02:04:00";
-	taskList.push(new Array(type, "미샬포대", "Lv.10", " 810만 골드", 15,  2));
+	taskMap.startDate = "2021-12-12 22:45:00";
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
 	taskList.push(new Array(type, "미샬포대", "Lv.10", " 810만 골드", 15,  2));
 	taskList.push(new Array(type, "미샬포대", "Lv.10", " 810만 골드", 15,  2));
 	taskList.push(new Array(type, "미샬포대", "Lv.10", " 810만 골드", 15,  2));
