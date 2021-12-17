@@ -94,6 +94,10 @@ function setTask21() {
 	taskList.push(new Array(type, "맥아더  ", "Lv.21", "   4만 석유",  1, 22));
 	taskList.push(new Array(type, "주코프  ", "Lv. 2", "  23만 식량",  0,  8));
 	taskList.push(new Array(type, "주코프  ", "Lv. 3", "  50만 식량",  0,  8));
+	taskList.push(new Array(type, "유명개틀", "Lv.15", "  30만 석유", 16,  0));
+	taskList.push(new Array(type, "중전차  ", "Lv.13", "  30만 석유", 16,  0));
+	taskList.push(new Array(type, "무장차량", "Lv.12", "  30만 석유", 16,  0));
+	taskList.push(new Array(type, "엠알엘  ", "Lv. 8", "  30만 석유", 16,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -108,6 +112,10 @@ function setTask22() {
 	taskList.push(new Array(type, "노부나가", "Lv.19", "   4만 석유",  1, 22));
 	taskList.push(new Array(type, "노부나가", "Lv.20", "   4만 석유",  1, 22));
 	taskList.push(new Array(type, "노부나가", "Lv.21", "   4만 석유",  1, 22));
+	taskList.push(new Array(type, "유명게릴", "Lv.14", "  30만 석유", 16,  0));
+	taskList.push(new Array(type, "유명바주", "Lv.12", "  30만 석유", 16,  0));
+	taskList.push(new Array(type, "에이피씨", "Lv.10", "  30만 석유", 16,  0));
+	taskList.push(new Array(type, "유명헬기", "Lv. 9", "  30만 석유", 16,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
