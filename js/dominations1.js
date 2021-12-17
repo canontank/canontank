@@ -92,6 +92,8 @@ function setTask21() {
 	taskMap.startDate = "2021-12-17 22:37:00";
 	taskList.push(new Array(type, "맥아더  ", "Lv.20", "   4만 석유",  1, 22));
 	taskList.push(new Array(type, "맥아더  ", "Lv.21", "   4만 석유",  1, 22));
+	taskList.push(new Array(type, "주코프  ", "Lv. 2", "  23만 식량",  0,  8));
+	taskList.push(new Array(type, "주코프  ", "Lv. 3", "  50만 식량",  0,  8));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
