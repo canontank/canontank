@@ -4,9 +4,14 @@ function setTask11() {
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (2명)";
 	taskMap.startDate = "2021-12-29 11:57:00";
-	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 815만 골드", 15,  3));
-	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 815만 골드", 15,  3));
-	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 815만 골드", 15,  3));
+	taskList.push(new Array(type, "미샬포대", "Lv.10", " 815만 골드", 15,  3));
+	taskList.push(new Array(type, "미샬포대", "Lv.10", " 815만 골드", 15,  3));
+	taskList.push(new Array(type, "미샬포대", "Lv.10", " 815만 골드", 15,  3));
+	taskList.push(new Array(type, "미샬포대", "Lv.11", "1050만 골드", 15, 12));
+	taskList.push(new Array(type, "미샬포대", "Lv.11", "1050만 골드", 15, 12));
+	taskList.push(new Array(type, "미샬포대", "Lv.11", "1050만 골드", 15, 12));
+	taskList.push(new Array(type, "미샬포대", "Lv.11", "1050만 골드", 15, 12));
+	taskList.push(new Array(type, "미샬포대", "Lv.11", "1050만 골드", 15, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -104,13 +109,13 @@ function setTask22() {
 
 $(document).ready(function() {
 	try {
-		//setTask11();
+		setTask11();
 		setTask12();
 		setTask13();
 		setTask14();
 		setTask15();
-		//setTask21();
-		//setTask22();
+		setTask21();
+		setTask22();
 		setDominations();
 	} catch (e) {
 		alert(e);
