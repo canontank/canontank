@@ -2,15 +2,16 @@ function setTask11() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민1";
-	taskMap.title = "1-1. 국민 (2명)";
+	taskMap.title = "1-1. 국민 (2명 → 3명)";
 	taskMap.startDate = "2022-01-13 21:30:00";
 	taskList.push(new Array(type, "미샬포대", "Lv.10", " 815만 골드", 15,  3));
-	taskList.push(new Array(type, "미샬포대", "Lv.10", " 815만 골드", 15,  3));
-	taskList.push(new Array(type, "미샬포대", "Lv.11", "1050만 골드", 15, 12));
-	taskList.push(new Array(type, "미샬포대", "Lv.11", "1050만 골드", 15, 12));
-	taskList.push(new Array(type, "미샬포대", "Lv.11", "1050만 골드", 15, 12));
-	taskList.push(new Array(type, "미샬포대", "Lv.11", "1050만 골드", 15, 12));
-	taskList.push(new Array(type, "미샬포대", "Lv.11", "1050만 골드", 15, 12));
+	taskList.push(new Array(type, "대전차포", "Lv.11", "1900만 골드", 17,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.14", "2250만 골드", 17,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -72,21 +73,6 @@ function setTask15() {
 	allTaskMapList.push(taskMap);
 }
 
-function setTask16() {
-	var taskList = new Array();
-	var taskMap = new Object();
-	var type = "국민6";
-	taskMap.title = "1-6. 국민 (1명)";
-	taskMap.startDate = "2022-01-16 18:39:00";
-	taskList.push(new Array(type, "클레모어", "Lv. 2", " 500만 골드", 10,  0));
-	taskList.push(new Array(type, "유인함정", "Lv. 3", " 432만 골드", 10,  0));
-	taskList.push(new Array(type, "유인함정", "Lv. 4", " 500만 골드", 11,  0));
-	taskList.push(new Array(type, "유인함정", "Lv. 4", " 500만 골드", 11,  0));
-	taskList.push(new Array(type, "유인함정", "Lv. 4", " 500만 골드", 11,  0));
-	taskMap.taskList = taskList;
-	allTaskMapList.push(taskMap);
-}
-
 function setTask21() {
 	var taskList = new Array();
 	var taskMap = new Object();
@@ -123,7 +109,6 @@ $(document).ready(function() {
 		setTask13();
 		setTask14();
 		setTask15();
-		setTask16();
 		setTask21();
 		setTask22();
 		setDominations();
