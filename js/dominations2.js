@@ -75,8 +75,8 @@ function setTask15() {
 function setTask16() {
 	var taskList = new Array();
 	var taskMap = new Object();
-	var type = "국민5";
-	taskMap.title = "1-5. 국민 (1명)";
+	var type = "국민6";
+	taskMap.title = "1-6. 국민 (1명)";
 	taskMap.startDate = "2022-01-16 18:39:00";
 	taskList.push(new Array(type, "클레모어", "Lv. 2", " 500만 골드", 10,  0));
 	taskList.push(new Array(type, "유인함정", "Lv. 3", " 432만 골드", 10,  0));
@@ -124,6 +124,7 @@ $(document).ready(function() {
 		setTask13();
 		setTask14();
 		setTask15();
+		setTask16();
 		setTask21();
 		setTask22();
 		setDominations();
