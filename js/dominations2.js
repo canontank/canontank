@@ -78,7 +78,8 @@ function setTask21() {
 	taskMap.startDate = "2022-01-16 18:46:00";
 	taskList.push(new Array(type, "유명개틀", "Lv.15", "  25만 석유", 17, 14));
 	taskList.push(new Array(type, "무장차량", "Lv.12", "27.2만 석유", 17, 14));
-	taskList.push(new Array(type, "엠알엘  ", "Lv. 8", "  26만 석유", 17, 14));
+	taskList.push(new Array(type, "고급호송", "Lv. 1", "1800만 식량", 15,  6 ));
+	taskList.push(new Array(type, "강습차량", "Lv. 3", "1800만 식량", 15,  6 ));
 	taskList.push(new Array(type, "고급헬기", "Lv. 2", "1800만 식량", 15,  6 ));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
@@ -93,8 +94,7 @@ function setTask22() {
 	taskList.push(new Array(type, "중전차  ", "Lv.13", "27.2만 석유", 17, 14));
 	taskList.push(new Array(type, "에이피씨", "Lv.10", "  27만 석유", 17, 14));
 	taskList.push(new Array(type, "유명헬기", "Lv. 9", "  26만 석유", 17, 14));
-	taskList.push(new Array(type, "고급호송", "Lv. 1", "1800만 식량", 15,  6 ));
-	taskList.push(new Array(type, "강습차량", "Lv. 3", "1800만 식량", 15,  6 ));
+	taskList.push(new Array(type, "엠알엘  ", "Lv. 8", "  26만 석유", 17, 14));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
