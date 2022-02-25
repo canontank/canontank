@@ -79,8 +79,8 @@ function setTask21() {
 	taskMap.title = "2-1. 무기고 연구";
 	taskMap.startDate = "2022-02-14 13:16:00";
 	taskList.push(new Array(type, "엠알엘  ", "Lv. 8", "  26만 석유", 17, 14));
-	taskList.push(new Array(type, "주코프  ", "Lv. 2", "  23만 식량",  0,  8));
-	taskList.push(new Array(type, "주코프  ", "Lv. 3", "  50만 식량",  0,  8));
+	taskList.push(new Array(type, "페트라  ", "Lv. 2", "   1만 석유",  0,  8));
+	taskList.push(new Array(type, "페트라  ", "Lv. 3", "   1만 석유",  0,  8));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -92,6 +92,8 @@ function setTask22() {
 	taskMap.title = "2-2. 무기고 연구";
 	taskMap.startDate = "2022-02-25 13:22:00";
 	taskList.push(new Array(type, "노부나가", "Lv.21", "   5만 석유",  2, 20));
+	taskList.push(new Array(type, "주코프  ", "Lv. 2", "  23만 식량",  0,  8));
+	taskList.push(new Array(type, "주코프  ", "Lv. 3", "  50만 식량",  0,  8));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
