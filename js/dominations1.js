@@ -51,7 +51,7 @@ function setTask14() {
 	var taskMap = new Object();
 	var type = "국민4";
 	taskMap.title = "1-4. 국민 (4명 → 0명)";
-	taskMap.startDate = "2022-03-01 11:30:00";
+	taskMap.startDate = "2022-03-01 10:00:00";
 	taskList.push(new Array(type, "도로    ", "Lv. 9", " 650만 식량",  7,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
