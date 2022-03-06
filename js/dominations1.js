@@ -76,9 +76,6 @@ function setTask21() {
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
 	taskMap.startDate = "2022-02-14 13:16:00";
-	taskList.push(new Array(type, "엠알엘  ", "Lv. 8", "  26만 석유", 17, 14));
-	taskList.push(new Array(type, "페트라  ", "Lv. 2", "   1만 석유",  0,  8));
-	taskList.push(new Array(type, "페트라  ", "Lv. 3", "   1만 석유",  0,  8));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -89,9 +86,6 @@ function setTask22() {
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
 	taskMap.startDate = "2022-03-01 23:12:00";
-	taskList.push(new Array(type, "주코프  ", "Lv. 4", "  23만 식량",  0,  8));
-	taskList.push(new Array(type, "주코프  ", "Lv. 5", "  50만 식량",  0,  8));
-	taskList.push(new Array(type, "주코프  ", "Lv. 6", "  50만 식량",  0,  8));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -103,8 +97,8 @@ $(document).ready(function() {
 		setTask13();
 		setTask14();
 		setTask15();
-		setTask21();
-		setTask22();
+		//setTask21();
+		//setTask22();
 		setDominations();
 	} catch (e){
 		alert(e);
