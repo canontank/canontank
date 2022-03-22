@@ -88,8 +88,8 @@ $(document).ready(function() {
 		setTask12();
 		setTask13();
 		setTask14();
-		//setTask21();
-		//setTask22();
+		setTask21();
+		setTask22();
 		setDominations();
 	} catch (e){
 		alert(e);
