@@ -60,8 +60,7 @@ function setTask21() {
 	var taskMap = new Object();
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
-	taskMap.startDate = "2022-03-26 21:33:00";
-	taskList.push(new Array(type, "손자    ", "Lv.13", "   4만 석유",  1, 22));
+	taskMap.startDate = "2022-03-28 19:47:00";
 	taskList.push(new Array(type, "손자    ", "Lv.14", "   4만 석유",  1, 22));
 	taskList.push(new Array(type, "페트라  ", "Lv.14", "   4만 석유",  1, 22));
 	taskList.push(new Array(type, "페트라  ", "Lv.15", "   4만 석유",  1, 22));
@@ -75,8 +74,7 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2022-03-26 21:33:00";
-	taskList.push(new Array(type, "페트라  ", "Lv.13", "   4만 석유",  1, 22));
+	taskMap.startDate = "2022-03-28 19:47:00";
 	taskList.push(new Array(type, "주코프  ", "Lv.13", "   4만 석유",  1, 22));
 	taskList.push(new Array(type, "주코프  ", "Lv.14", "   4만 석유",  1, 22));
 	taskList.push(new Array(type, "주코프  ", "Lv.15", "   4만 석유",  1, 22));
