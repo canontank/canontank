@@ -48,6 +48,8 @@ function setTask14() {
 	taskList.push(new Array(type, "유인함정", "Lv. 4", " 500만 골드", 11,  0));
 	taskList.push(new Array(type, "유인함정", "Lv. 4", " 500만 골드", 11,  0));
 	taskList.push(new Array(type, "신호탄  ", "Lv. 3", " 6.5만 석유", 12,  0));
+	taskList.push(new Array(type, "가시함정", "Lv. 6", "  40만 골드",  2,  9));
+	taskList.push(new Array(type, "매복함정", "Lv.11", " 650만 골드", 13,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
