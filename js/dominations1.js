@@ -55,6 +55,17 @@ function setTask14() {
 	taskMap.startDate = "2022-05-17 11:07:00";
 	taskList.push(new Array(type, "가시함정", "Lv. 6", "  40만 골드",  2,  9));
 	taskList.push(new Array(type, "매복함정", "Lv.11", " 650만 골드", 13,  0));
+	taskList.push(new Array(type, "가시함정", "Lv. 7", "  75만 골드",  5,  0));
+	taskList.push(new Array(type, "가시함정", "Lv. 8", " 150만 골드",  7,  0));
+	taskList.push(new Array(type, "가시함정", "Lv. 9", " 250만 골드",  9,  0));
+	taskList.push(new Array(type, "가시함정", "Lv.10", " 300만 골드", 10,  0));
+	taskList.push(new Array(type, "가시함정", "Lv.11", " 370만 골드", 10, 12));
+	taskList.push(new Array(type, "가시함정", "Lv.12", " 425만 골드", 11,  0));
+	taskList.push(new Array(type, "가시함정", "Lv.13", " 505만 골드", 12,  0));
+	taskList.push(new Array(type, "가시함정", "Lv.14", " 590만 골드", 13,  0));
+	taskList.push(new Array(type, "가시함정", "Lv.15", " 700만 골드", 14, 12));
+	taskList.push(new Array(type, "가시함정", "Lv.16", " 840만 골드", 16,  0));
+	taskList.push(new Array(type, "가시함정", "Lv.17", " 950만 골드", 16, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
