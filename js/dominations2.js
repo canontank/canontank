@@ -27,6 +27,9 @@ function setTask12() {
 	taskList.push(new Array(type, "금고    ", "Lv. 8", " 900만 식량", 11,  0));
 	taskList.push(new Array(type, "금고    ", "Lv. 9", "1200만 식량", 12, 12));
 	taskList.push(new Array(type, "금고    ", "Lv.10", "1400만 식량", 13,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.11", "1360만 골드", 13,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.11", "1360만 골드", 13,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.11", "1360만 골드", 13,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -44,9 +47,6 @@ function setTask13() {
 	taskList.push(new Array(type, "수비대  ", "Lv.10", " 925만 골드", 12,  0));
 	taskList.push(new Array(type, "수비대  ", "Lv.10", " 925만 골드", 12,  0));
 	taskList.push(new Array(type, "수비대  ", "Lv.10", " 925만 골드", 12,  0));
-	taskList.push(new Array(type, "수비대  ", "Lv.11", "1360만 골드", 13,  0));
-	taskList.push(new Array(type, "수비대  ", "Lv.11", "1360만 골드", 13,  0));
-	taskList.push(new Array(type, "수비대  ", "Lv.11", "1360만 골드", 13,  0));
 	taskList.push(new Array(type, "수비대  ", "Lv.11", "1360만 골드", 13,  0));
 	taskList.push(new Array(type, "수비대  ", "Lv.11", "1360만 골드", 13,  0));
 	taskMap.taskList = taskList;
