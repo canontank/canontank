@@ -75,6 +75,11 @@ function setTask21() {
 	taskMap.startDate = "2022-05-25 06:34:00";
 	taskList.push(new Array(type, "알렉산더", "Lv.24", " 5.5만 석유",  2, 20));
 	taskList.push(new Array(type, "알렉산더", "Lv.25", " 5.5만 석유",  2, 20));
+	taskList.push(new Array(type, "알렉산더", "Lv.26", " 5.5만 석유",  2, 20));
+	taskList.push(new Array(type, "알렉산더", "Lv.27", " 5.5만 석유",  2, 20));
+	taskList.push(new Array(type, "알렉산더", "Lv.28", " 5.5만 석유",  2, 20));
+	taskList.push(new Array(type, "알렉산더", "Lv.29", " 5.5만 석유",  2, 20));
+	taskList.push(new Array(type, "알렉산더", "Lv.30", " 5.5만 석유",  2, 20));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -87,6 +92,11 @@ function setTask22() {
 	taskMap.startDate = "2022-05-25 06:34:00";
 	taskList.push(new Array(type, "클레오  ", "Lv.24", " 5.5만 석유",  2, 20));
 	taskList.push(new Array(type, "클레오  ", "Lv.25", " 5.5만 석유",  2, 20));
+	taskList.push(new Array(type, "클레오  ", "Lv.26", " 5.5만 석유",  2, 20));
+	taskList.push(new Array(type, "클레오  ", "Lv.27", " 5.5만 석유",  2, 20));
+	taskList.push(new Array(type, "클레오  ", "Lv.28", " 5.5만 석유",  2, 20));
+	taskList.push(new Array(type, "클레오  ", "Lv.29", " 5.5만 석유",  2, 20));
+	taskList.push(new Array(type, "클레오  ", "Lv.30", " 5.5만 석유",  2, 20));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
