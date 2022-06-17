@@ -17,7 +17,7 @@ function setTask12() {
 	var taskMap = new Object();
 	var type = "국민2";
 	taskMap.title = "1-2. 국민 (6명)";
-	taskMap.startDate = "2022-06-09 18:49:00";
+	taskMap.startDate = "2022-06-09 16:19:00";
 	taskList.push(new Array(type, "금고    ", "Lv. 7", " 840만 식량", 10,  0));
 	taskList.push(new Array(type, "금고    ", "Lv. 8", " 900만 식량", 11,  0));
 	taskList.push(new Array(type, "금고    ", "Lv. 9", "1200만 식량", 12, 12));
@@ -50,8 +50,7 @@ function setTask14() {
 	var taskMap = new Object();
 	var type = "국민4";
 	taskMap.title = "1-4. 국민 (1명)";
-	taskMap.startDate = "2022-06-06 15:55:00";
-	taskList.push(new Array(type, "신호탄  ", "Lv. 2", " 5.5만 석유", 11,  0));
+	taskMap.startDate = "2022-06-17 19:30:00";
 	taskList.push(new Array(type, "신호탄  ", "Lv. 3", " 6.5만 석유", 12,  0));
 	taskList.push(new Array(type, "신호탄  ", "Lv. 3", " 6.5만 석유", 12,  0));
 	taskMap.taskList = taskList;
@@ -63,8 +62,7 @@ function setTask21() {
 	var taskMap = new Object();
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
-	taskMap.startDate = "2022-06-07 19:22:00";
-	taskList.push(new Array(type, "미국    ", "Lv. 7", "  12만 석유", 10, 11));
+	taskMap.startDate = "2022-06-17 19:31:00";
 	taskList.push(new Array(type, "에티오피", "Lv. 7", "  12만 석유", 10, 11)); // 미확인
 	taskList.push(new Array(type, "아즈텍  ", "Lv. 8", "1000만 식량", 11, 12)); // 미확인
 	taskList.push(new Array(type, "몽골    ", "Lv. 8", "1000만 식량", 11, 12)); // 미확인
@@ -80,8 +78,7 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2022-06-07 19:22:00";
-	taskList.push(new Array(type, "인도    ", "Lv. 7", " 800만 골드", 10, 11));
+	taskMap.startDate = "2022-06-17 19:31:00";
 	taskList.push(new Array(type, "러시아  ", "Lv. 7", " 800만 골드", 10, 11)); // 미확인
 	taskList.push(new Array(type, "러시아  ", "Lv. 8", "  11만 석유", 11, 12)); // 미확인
 	taskList.push(new Array(type, "필리핀  ", "Lv. 8", "  11만 석유", 11, 12)); // 미확인
