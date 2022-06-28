@@ -52,7 +52,7 @@ function setTask15() {
 	var taskMap = new Object();
 	var type = "국민5";
 	taskMap.title = "1-5. 국민 (2명)";
-	taskMap.startDate = "2022-06-18 19:30:00";
+	taskMap.startDate = "2022-06-29 19:30:00";
 	taskList.push(new Array(type, "미샬포대", "Lv. 1", " 100만 골드",  5,  0));
 	taskList.push(new Array(type, "미샬포대", "Lv. 2", " 100만 골드",  7,  0)); // 미확인
 	taskMap.taskList = taskList;
