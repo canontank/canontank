@@ -8,7 +8,7 @@ function setTask11() {
 	taskList.push(new Array(type, "미샬격납", "Lv.12", "27.2만 석유", 18, 12));
 	taskList.push(new Array(type, "전차격납", "Lv.16", "2250만 골드", 19,  0));
 	taskList.push(new Array(type, "전차격납", "Lv.16", "2250만 골드", 19,  0));
-	taskList.push(new Array(type, "금고    ", "Lv.11", "1500만 골드", 13, 12));
+	taskList.push(new Array(type, "금고    ", "Lv.11", "1500만 식량", 13, 12));
 	taskList.push(new Array(type, "길드관문", "Lv.11", " 770만 식량",  8,  1));
 	taskList.push(new Array(type, "유정    ", "Lv.15", "2400만 골드", 16, 12));
 	taskList.push(new Array(type, "대전차포", "Lv.12", "2200만 골드", 18,  0));
