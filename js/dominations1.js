@@ -27,8 +27,13 @@ function setTask12() {
 	taskList.push(new Array(type, "공장    ", "Lv.16", "  30만 석유", 18, 12));
 	taskList.push(new Array(type, "비행장  ", "Lv. 9", "  30만 석유", 18,  0));
 	taskList.push(new Array(type, "공장    ", "Lv.16", "  30만 석유", 18, 12));
+	taskList.push(new Array(type, "로켓무기", "Lv. 2", "  30만 석유", 17, 12));
+	taskList.push(new Array(type, "벙커    ", "Lv. 9", "  30만 석유", 17, 12));
+	taskList.push(new Array(type, "벙커    ", "Lv. 9", "  30만 석유", 17, 12));
 	taskList.push(new Array(type, "용병캠프", "Lv.15", "1900만 식량", 16, 12));
 	taskList.push(new Array(type, "정유공장", "Lv.10", "1100만 골드", 12, 12));
+	taskList.push(new Array(type, "성채    ", "Lv. 7", "1200만 식량", 11,  0));
+	taskList.push(new Array(type, "협의회  ", "Lv. 3", " 250만 식량",  3,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
