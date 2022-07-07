@@ -65,12 +65,12 @@ function setTask21() {
 	taskMap.title = "2-1. 무기고 연구";
 	taskMap.startDate = "2022-06-27 19:20:00";
 	taskList.push(new Array(type, "아즈텍  ", "Lv. 8", "1000만 식량", 11, 12));
-	taskList.push(new Array(type, "선봉수송", "Lv. 1", "  25만 석유", 15,  0)); // 미확인
-	taskList.push(new Array(type, "선봉수송", "Lv. 2", "  25만 석유", 15,  0)); // 미확인
-	taskList.push(new Array(type, "선봉수송", "Lv. 3", "  25만 석유", 15,  0)); // 미확인
-	taskList.push(new Array(type, "선봉수송", "Lv. 4", "  25만 석유", 15,  0)); // 미확인
-	taskList.push(new Array(type, "선봉수송", "Lv. 5", "  25만 석유", 15,  0)); // 미확인
-	taskList.push(new Array(type, "선봉수송", "Lv. 6", "  25만 석유", 15,  0)); // 미확인
+	taskList.push(new Array(type, "선봉수송", "Lv. 1", "  20만 석유",  9, 12));
+	taskList.push(new Array(type, "선봉수송", "Lv. 2", "  20만 석유",  9, 12));
+	taskList.push(new Array(type, "선봉수송", "Lv. 3", "  20만 석유",  9, 12));
+	taskList.push(new Array(type, "선봉수송", "Lv. 4", "  20만 석유",  9, 12));
+	taskList.push(new Array(type, "선봉수송", "Lv. 5", "  20만 석유",  9, 12));
+	taskList.push(new Array(type, "선봉수송", "Lv. 6", "  20만 석유",  9, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -82,12 +82,12 @@ function setTask22() {
 	taskMap.title = "2-2. 무기고 연구";
 	taskMap.startDate = "2022-06-27 19:20:00";	
 	taskList.push(new Array(type, "필리핀  ", "Lv. 8", "  11만 석유", 11, 12));
-	taskList.push(new Array(type, "선봉전투", "Lv. 1", "  25만 석유", 15,  0)); // 미확인
-	taskList.push(new Array(type, "선봉전투", "Lv. 2", "  25만 석유", 15,  0)); // 미확인
-	taskList.push(new Array(type, "선봉전투", "Lv. 3", "  25만 석유", 15,  0)); // 미확인
-	taskList.push(new Array(type, "선봉전투", "Lv. 4", "  25만 석유", 15,  0)); // 미확인
-	taskList.push(new Array(type, "선봉전투", "Lv. 5", "  25만 석유", 15,  0)); // 미확인
-	taskList.push(new Array(type, "선봉전투", "Lv. 6", "  25만 석유", 15,  0)); // 미확인
+	taskList.push(new Array(type, "선봉전투", "Lv. 1", "  20만 석유",  9, 12));
+	taskList.push(new Array(type, "선봉전투", "Lv. 2", "  20만 석유",  9, 12));
+	taskList.push(new Array(type, "선봉전투", "Lv. 3", "  20만 석유",  9, 12));
+	taskList.push(new Array(type, "선봉전투", "Lv. 4", "  20만 석유",  9, 12));
+	taskList.push(new Array(type, "선봉전투", "Lv. 5", "  20만 석유",  9, 12));
+	taskList.push(new Array(type, "선봉전투", "Lv. 6", "  20만 석유",  9, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
