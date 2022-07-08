@@ -46,7 +46,7 @@ function setTask13() {
 	taskList.push(new Array(type, "요새    ", "Lv.11", "  15만 석유", 17,  0));
 	taskList.push(new Array(type, "유정    ", "Lv.15", "2400만 골드", 16, 12));
 	taskList.push(new Array(type, "유정    ", "Lv.15", "2400만 골드", 16, 12));
-	taskList.push(new Array(type, "유정    ", "Lv.15", "2400만 골드", 16, 12));
+	taskList.push(new Array(type, "길드관문", "Lv.11", " 770만 식량",  8,  1));
 	taskList.push(new Array(type, "식량저장", "Lv.18", "1000만 골드", 11, 12));
 	taskList.push(new Array(type, "식량저장", "Lv.18", "1000만 골드", 11, 12));
 	taskList.push(new Array(type, "식량저장", "Lv.18", "1000만 골드", 11, 12));
