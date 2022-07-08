@@ -21,9 +21,9 @@ function setTask12() {
 	taskMap.startDate = "2022-06-28 17:10:00";
 	taskList.push(new Array(type, "공장    ", "Lv.16", "  30만 석유", 18, 12));
 	taskList.push(new Array(type, "요새    ", "Lv.11", "  15만 석유", 17,  0));
-	taskList.push(new Array(type, "대전차포", "Lv.12", "2200만 골드", 18,  0));
-	taskList.push(new Array(type, "대전차포", "Lv.12", "2200만 골드", 18,  0));
-	taskList.push(new Array(type, "대전차포", "Lv.12", "2200만 골드", 18,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.15", "2400만 골드", 16, 12));
+	taskList.push(new Array(type, "유정    ", "Lv.15", "2400만 골드", 16, 12));
+	taskList.push(new Array(type, "유정    ", "Lv.15", "2400만 골드", 16, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -35,10 +35,13 @@ function setTask13() {
 	taskMap.title = "1-3. 국민 (4명)";
 	taskMap.startDate = "2022-06-28 21:45:00";
 	taskList.push(new Array(type, "용병캠프", "Lv.15", "1800만 식량", 16, 12));
-	taskList.push(new Array(type, "정유공장", "Lv.10", "1100만 골드", 12, 12));
 	taskList.push(new Array(type, "비행장  ", "Lv. 9", "  30만 석유", 18,  0));
-	taskList.push(new Array(type, "성채    ", "Lv. 7", "1200만 식량",  7,  0));
 	taskList.push(new Array(type, "공장    ", "Lv.16", "  30만 석유", 18, 12));
+	taskList.push(new Array(type, "로켓무기", "Lv. 2", "  30만 석유", 17, 12));
+	taskList.push(new Array(type, "벙커    ", "Lv. 9", "  30만 석유", 17, 12));
+	taskList.push(new Array(type, "벙커    ", "Lv. 9", "  30만 석유", 17, 12));
+	taskList.push(new Array(type, "정유공장", "Lv.10", "1100만 골드", 12, 12));
+	taskList.push(new Array(type, "성채    ", "Lv. 7", "1200만 식량",  7,  0));
 	taskList.push(new Array(type, "무기고  ", "Lv.16", "2200만 식량", 13, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
