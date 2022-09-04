@@ -121,7 +121,6 @@ function setTask21() {
 	taskMap.title = "2-1. 무기고 연구";
 	taskMap.startDate = "2022-09-04 17:31:00";
 	taskList.push(new Array(type, "게릴라  ", "Lv. 1", "  28만 석유", 18,  2));
-	taskList.push(new Array(type, "선봉폭격", "Lv. 3", "  20만 석유",  9, 11));
 	taskList.push(new Array(type, "무장차량", "Lv. 1", "  28만 석유", 18,  2));
 	taskList.push(new Array(type, "엠알엘  ", "Lv. 1", "  28만 석유", 18,  2));
 	taskList.push(new Array(type, "전술헬기", "Lv. 1", "  28만 석유", 18,  2));
