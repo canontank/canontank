@@ -87,8 +87,7 @@ function setTask16() {
 	var taskMap = new Object();
 	var type = "국민6";
 	taskMap.title = "1-6. 국민 (1명)";
-	taskMap.startDate = "2022-09-14 22:44:00";
-	taskList.push(new Array(type, "신호탄  ", "Lv. 2", " 5.5만 석유", 11,  0));
+	taskMap.startDate = "2022-09-25 01:24:00";
 	taskList.push(new Array(type, "신호탄  ", "Lv. 3", "12.5만 석유", 13,  0));
 	taskList.push(new Array(type, "신호탄  ", "Lv. 3", "12.5만 석유", 13,  0));
 	taskList.push(new Array(type, "신호탄  ", "Lv. 3", "12.5만 석유", 13,  0));
