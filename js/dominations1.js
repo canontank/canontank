@@ -24,8 +24,6 @@ function setTask12() {
 	taskList.push(new Array(type, "골드저장", "Lv.18", "1000만 식량", 11, 12));
 	taskList.push(new Array(type, "골드저장", "Lv.18", "1000만 식량", 11, 12));
 	taskList.push(new Array(type, "용병캠프", "Lv.15", "1900만 식량", 16, 12));
-	taskList.push(new Array(type, "성채    ", "Lv. 7", "1200만 식량", 11,  0));
-	taskList.push(new Array(type, "협의회  ", "Lv. 3", " 250만 식량",  3,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -39,7 +37,8 @@ function setTask13() {
 	taskList.push(new Array(type, "식량저장", "Lv.18", "1000만 골드", 11, 12));
 	taskList.push(new Array(type, "골드저장", "Lv.18", "1000만 식량", 11, 12));
 	taskList.push(new Array(type, "식량저장", "Lv.18", "1000만 골드", 11, 12));
-	taskList.push(new Array(type, "식량저장", "Lv.18", "1000만 골드", 11, 12));
+	taskList.push(new Array(type, "성채    ", "Lv. 7", "1200만 식량", 11,  0));
+	taskList.push(new Array(type, "협의회  ", "Lv. 3", " 250만 식량",  3,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
