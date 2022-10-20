@@ -110,6 +110,8 @@ function setTask21() {
 	taskList.push(new Array(type, "선봉정찰", "Lv. 4", "  20만 석유",  9, 11));
 	taskList.push(new Array(type, "선봉정찰", "Lv. 5", "  20만 석유",  9, 11));
 	taskList.push(new Array(type, "선봉정찰", "Lv. 6", "  20만 석유",  9, 11));
+	taskList.push(new Array(type, "드론헬기", "Lv. 1", "2230만 식량", 16,  4));
+	taskList.push(new Array(type, "드론강습", "Lv. 1", "2230만 식량", 16,  4));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -129,8 +131,6 @@ function setTask22() {
 	taskList.push(new Array(type, "드론포병", "Lv. 1", "2230만 식량", 16,  4));
 	taskList.push(new Array(type, "드론박격", "Lv. 1", "2230만 식량", 16,  4));
 	taskList.push(new Array(type, "드론호송", "Lv. 1", "2230만 식량", 16,  4));
-	taskList.push(new Array(type, "드론헬기", "Lv. 1", "2230만 식량", 16,  4));
-	taskList.push(new Array(type, "드론강습", "Lv. 1", "2230만 식량", 16,  4));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
