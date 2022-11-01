@@ -110,6 +110,19 @@ function setTask16() {
 	allTaskMapList.push(taskMap);
 }
 
+function setTask17() {
+	var taskList = new Array();
+	var taskMap = new Object();
+	var type = "국민7";
+	taskMap.title = "1-7. 국민 (1명)";
+	taskMap.startDate = "2022-11-02 01:14:00";
+	taskList.push(new Array(type, "매복함정", "Lv. 3", "12.5만 석유", 16,  0));
+	taskList.push(new Array(type, "매복함정", "Lv. 3", "12.5만 석유", 16,  0));
+	taskList.push(new Array(type, "매복함정", "Lv. 3", "12.5만 석유", 16,  0));
+	taskMap.taskList = taskList;
+	allTaskMapList.push(taskMap);
+}
+
 function setTask21() {
 	var taskList = new Array();
 	var taskMap = new Object();
@@ -160,6 +173,7 @@ $(document).ready(function() {
 		setTask14();
 		setTask15();
 		setTask16();
+		setTask17();
 		setTask21();
 		setTask22();
 		setDominations();
