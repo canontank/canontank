@@ -139,8 +139,8 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2022-10-21 00:37:00";
-	taskList.push(new Array(type, "엠알엘  ", "Lv. 1", "  28만 석유", 18,  2));
+	taskMap.startDate = "2022-11-07 22:14:00";
+	taskList.push(new Array(type, "드론호송", "Lv. 1", "2230만 식량", 16,  4));
 	taskList.push(new Array(type, "드론보병", "Lv. 1", "1520만 식량", 16,  4));
 	taskList.push(new Array(type, "드론궁수", "Lv. 1", "1520만 식량", 16,  4));
 	taskList.push(new Array(type, "드론돌격", "Lv. 1", "1600만 식량", 16,  4));
@@ -148,7 +148,6 @@ function setTask22() {
 	taskList.push(new Array(type, "드론공병", "Lv. 1", "1600만 식량", 16,  4));
 	taskList.push(new Array(type, "드론포병", "Lv. 1", "2230만 식량", 16,  4));
 	taskList.push(new Array(type, "드론박격", "Lv. 1", "2230만 식량", 16,  4));
-	taskList.push(new Array(type, "드론호송", "Lv. 1", "2230만 식량", 16,  4));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
