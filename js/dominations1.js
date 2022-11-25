@@ -4,7 +4,7 @@ function setTask11() {
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (4명)";
 	taskMap.startDate = "2022-11-26 00:12:00";
-	taskList.push(new Array(type, "드론사령", "Lv. 1", "  30만 석유",  1,  0)); 
+	taskList.push(new Array(type, "드론사령", "Lv. 1", "  30만 석유",  1,  0));
 	taskList.push(new Array(type, "드론사령", "Lv. 2", "  32만 석유",  2, 17));
 	taskList.push(new Array(type, "벙커    ", "Lv. 7", "  27만 석유", 15, 12));
 	taskList.push(new Array(type, "벙커    ", "Lv. 8", "  28만 석유", 16,  0));
