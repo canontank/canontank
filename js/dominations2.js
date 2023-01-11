@@ -83,6 +83,7 @@ function setTask16() {
 	taskMap.title = "1-6. 국민 (1명)";
 	taskMap.startDate = "2023-01-11 23:03:00";
 	taskList.push(new Array(type, "클레모어", "Lv. 3", " 550만 골드", 11,  0));
+	taskList.push(new Array(type, "지뢰    ", "Lv. 8", " 150만 골드",  7,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
