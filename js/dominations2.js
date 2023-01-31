@@ -9,6 +9,7 @@ function setTask11() {
 	taskList.push(new Array(type, "방공시설", "Lv.13", "2200만 골드", 18,  0));
 	taskList.push(new Array(type, "방공시설", "Lv.13", "2200만 골드", 18,  0));
 	taskList.push(new Array(type, "방공시설", "Lv.13", "2200만 골드", 18,  0));
+	taskList.push(new Array(type, "사령부  ", "Lv.10", "1100만 식량", 12,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -26,6 +27,7 @@ function setTask12() {
 	taskList.push(new Array(type, "타워    ", "Lv.16", "1900만 골드", 13, 12));
 	taskList.push(new Array(type, "타워    ", "Lv.16", "1900만 골드", 13, 12));
 	taskList.push(new Array(type, "타워    ", "Lv.16", "1900만 골드", 13, 12));
+	taskList.push(new Array(type, "협의회  ", "Lv. 5", " 600만 식량",  7,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -52,12 +54,22 @@ function setTask14() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민4";
-	taskMap.title = "1-4. 국민 (3명 → 4명)";
+	taskMap.title = "1-4. 국민 (3명)";
 	taskMap.startDate = "2023-01-21 10:15:00";
 	taskList.push(new Array(type, "대전차포", "Lv.12", "2200만 골드", 18,  0));
 	taskList.push(new Array(type, "대전차포", "Lv.12", "2200만 골드", 18,  0));
-	taskList.push(new Array(type, "협의회  ", "Lv. 5", " 600만 식량",  7,  0));
-	taskList.push(new Array(type, "사령부  ", "Lv.10", "1100만 식량", 12,  0));
+	taskList.push(new Array(type, "대전차포", "Lv. 1", "   7만 골드",  0, 10));
+	taskList.push(new Array(type, "대전차포", "Lv. 2", "  30만 골드",  1,  0));
+	taskList.push(new Array(type, "대전차포", "Lv. 3", "  75만 골드",  3,  0));
+	taskList.push(new Array(type, "대전차포", "Lv. 4", " 290만 골드",  4,  0));
+	taskList.push(new Array(type, "대전차포", "Lv. 5", " 450만 골드", 10,  0));
+	taskList.push(new Array(type, "대전차포", "Lv. 6", " 600만 골드", 12,  0));
+	taskList.push(new Array(type, "대전차포", "Lv. 7", " 725만 골드", 13,  0));
+	taskList.push(new Array(type, "대전차포", "Lv. 8", "1070만 골드", 14,  0));
+	taskList.push(new Array(type, "대전차포", "Lv. 9", "1250만 골드", 15,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.10", "1600만 골드", 16, 12));
+	taskList.push(new Array(type, "대전차포", "Lv.11", "1900만 골드", 17,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.12", "2200만 골드", 18,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
