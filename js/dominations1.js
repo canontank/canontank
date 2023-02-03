@@ -76,8 +76,8 @@ function setTask15() {
 	var taskMap = new Object();
 	var type = "국민5";
 	taskMap.title = "1-5. 국민 (2명)";
-	taskMap.startDate = "2023-01-25 22:46:00";
-	taskList.push(new Array(type, "미샬포대", "Lv. 4", " 400만 골드",  9,  0));
+	taskMap.startDate = "2023-02-04 01:39:00";
+	taskList.push(new Array(type, "미샬포대", "Lv. 5", " 400만 골드", 10,  0));
 	taskList.push(new Array(type, "미샬포대", "Lv.11", "1010만 골드", 15, 12));
 	taskList.push(new Array(type, "미샬포대", "Lv.11", "1010만 골드", 15, 12));
 	taskList.push(new Array(type, "미샬포대", "Lv.11", "1010만 골드", 15, 12));
@@ -95,10 +95,10 @@ function setTask21() {
 	taskMap.startDate = "2023-02-02 21:30:00";
 	taskList.push(new Array(type, "드론강습", "Lv. 1", "2230만 식량", 16,  4));
 	taskList.push(new Array(type, "드론돌격", "Lv. 1", "1600만 식량", 16,  4));
-	taskList.push(new Array(type, "일제사격", "Lv. 1", " 800만 식량", 12,  0));
-	taskList.push(new Array(type, "사보타주", "Lv. 1", " 800만 식량", 12,  0));
-	taskList.push(new Array(type, "파괴    ", "Lv. 1", " 800만 식량", 12,  0));
-	taskList.push(new Array(type, "유인함정", "Lv. 1", " 800만 식량", 12,  0));
+	taskList.push(new Array(type, "일제사격", "Lv. 1", " 800만 식량", 11, 10));
+	taskList.push(new Array(type, "사보타주", "Lv. 1", " 800만 식량", 11, 10));
+	taskList.push(new Array(type, "파괴    ", "Lv. 1", " 800만 식량", 11, 10));
+	taskList.push(new Array(type, "유인함정", "Lv. 1", " 800만 식량", 11, 10));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -112,10 +112,10 @@ function setTask22() {
 	taskList.push(new Array(type, "선봉정찰", "Lv. 6", "  20만 석유",  9, 11));
 	taskList.push(new Array(type, "드론헬기", "Lv. 1", "2230만 식량", 16,  4));
 	taskList.push(new Array(type, "드론공병", "Lv. 1", "1600만 식량", 16,  4));
-	taskList.push(new Array(type, "보호    ", "Lv. 1", " 800만 식량", 12,  0));
-	taskList.push(new Array(type, "응급처치", "Lv. 1", " 800만 식량", 12,  0));
-	taskList.push(new Array(type, "배반    ", "Lv. 1", " 800만 식량", 12,  0));
-	taskList.push(new Array(type, "공격집결", "Lv. 1", " 800만 식량", 12,  0));
+	taskList.push(new Array(type, "보호    ", "Lv. 1", " 800만 식량", 11, 10));
+	taskList.push(new Array(type, "응급처치", "Lv. 1", " 800만 식량", 11, 10));
+	taskList.push(new Array(type, "배반    ", "Lv. 1", " 800만 식량", 11, 10));
+	taskList.push(new Array(type, "공격집결", "Lv. 1", " 800만 식량", 11, 10));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
