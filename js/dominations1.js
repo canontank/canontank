@@ -3,8 +3,7 @@ function setTask11() {
 	var taskMap = new Object();
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (4명)";
-	taskMap.startDate = "2023-04-09 00:01:00";
-	taskList.push(new Array(type, "협의회  ", "Lv. 5", " 700만 식량",  7,  0));
+	taskMap.startDate = "2023-04-16 01:30:00";
 	taskList.push(new Array(type, "방공시설", "Lv.13", "2200만 골드", 18,  0));
 	taskList.push(new Array(type, "방공시설", "Lv.13", "2200만 골드", 18,  0));
 	taskList.push(new Array(type, "의회    ", "Lv. 7", "2100만 골드", 17,  0));
@@ -67,8 +66,7 @@ function setTask15() {
 	var taskMap = new Object();
 	var type = "국민5";
 	taskMap.title = "1-5. 국민 (2명)";
-	taskMap.startDate = "2023-03-31 02:06:00";
-	taskList.push(new Array(type, "미샬포대", "Lv.10", " 850만 골드", 15,  3));
+	taskMap.startDate = "2023-04-16 01:30:00";
 	taskList.push(new Array(type, "미샬포대", "Lv.11", "1010만 골드", 15, 12));
 	taskList.push(new Array(type, "미샬포대", "Lv.11", "1010만 골드", 15, 12));
 	taskList.push(new Array(type, "미샬포대", "Lv.11", "1010만 골드", 15, 12));
