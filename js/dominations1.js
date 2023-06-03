@@ -3,8 +3,7 @@ function setTask11() {
 	var taskMap = new Object();
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (4명)";
-	taskMap.startDate = "2023-05-22 23:12:00";
-	taskList.push(new Array(type, "사령부  ", "Lv.10", "1100만 식량", 12,  0));
+	taskMap.startDate = "2023-06-03 23:36:00";
 	taskList.push(new Array(type, "의회    ", "Lv. 7", "2100만 골드", 17,  0));
 	taskList.push(new Array(type, "대학    ", "Lv.11", "1500만 골드", 16, 12));
 	taskMap.taskList = taskList;
