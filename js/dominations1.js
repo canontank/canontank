@@ -5,6 +5,11 @@ function setTask11() {
 	taskMap.title = "1-1. 국민 (4명)";
 	taskMap.startDate = "2023-06-22 01:53:00";
 	taskList.push(new Array(type, "대학    ", "Lv.11", "1500만 골드", 16, 12));
+	taskList.push(new Array(type, "사령부  ", "Lv.11", "1200만 식량", 13,  0));
+	taskList.push(new Array(type, "박격포  ", "Lv.11", "1700만 골드", 17, 12));
+	taskList.push(new Array(type, "박격포  ", "Lv.11", "1700만 골드", 17, 12));
+	taskList.push(new Array(type, "박격포  ", "Lv.11", "1700만 골드", 17, 12));
+	taskList.push(new Array(type, "박격포  ", "Lv.11", "1700만 골드", 17, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
