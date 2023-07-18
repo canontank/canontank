@@ -5,6 +5,8 @@ function setTask11() {
 	taskMap.title = "1-1. 국민 (4명)";
 	taskMap.startDate = "2023-07-18 23:50:00";
 	taskList.push(new Array(type, "사령부  ", "Lv.10", " 600만 식량", 13,  0));
+	taskList.push(new Array(type, "공장    ", "Lv.17", "  31만 석유", 19,  0));
+	taskList.push(new Array(type, "공장    ", "Lv.17", "  31만 석유", 19,  0));
 	taskList.push(new Array(type, "보루    ", "Lv. 2", " 400만 골드",  3,  4));
 	taskList.push(new Array(type, "보루    ", "Lv. 2", " 400만 골드",  3,  4));
 	taskList.push(new Array(type, "보루    ", "Lv. 2", " 400만 골드",  3,  4));
