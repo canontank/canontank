@@ -5,6 +5,7 @@ function setTask11() {
 	taskMap.title = "1-1. 국민 (4명)";
 	taskMap.startDate = "2023-07-26 01:51:00";
 	taskList.push(new Array(type, "사령부  ", "Lv.12", " 800만 식량", 14,  0));
+	taskList.push(new Array(type, "공장    ", "Lv.17", "  31만 석유", 19,  0));
 	taskList.push(new Array(type, "무역저장", "Lv.13", "1300만 골드", 12,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
@@ -14,10 +15,15 @@ function setTask12() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민2";
-	taskMap.title = "1-2. 국민 (4명)";
+	taskMap.title = "1-2. 국민 (4명 → 2명)";
 	taskMap.startDate = "2023-07-12 02:22:00";
 	taskList.push(new Array(type, "공장    ", "Lv.17", "  31만 석유", 19,  0));
-	taskList.push(new Array(type, "공장    ", "Lv.17", "  31만 석유", 19,  0));
+	taskList.push(new Array(type, "미샬포대", "Lv.13", "1500만 골드", 17, 12));
+	taskList.push(new Array(type, "미샬포대", "Lv.13", "1500만 골드", 17, 12));
+	taskList.push(new Array(type, "미샬포대", "Lv.13", "1500만 골드", 17, 12));
+	taskList.push(new Array(type, "미샬포대", "Lv.13", "1500만 골드", 17, 12));
+	taskList.push(new Array(type, "미샬포대", "Lv.13", "1500만 골드", 17, 12));
+	taskList.push(new Array(type, "미샬포대", "Lv.13", "1500만 골드", 17, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -26,15 +32,12 @@ function setTask13() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민3";
-	taskMap.title = "1-3. 국민 (4명 → 6명)";
+	taskMap.title = "1-3. 국민 (4명)";
 	taskMap.startDate = "2023-07-26 01:36:00";
 	taskList.push(new Array(type, "미샬두개", "Lv.12", "2500만 골드", 16,  0));
-	taskList.push(new Array(type, "미샬두개", "Lv.13", "3000만 골드", 17, 12));
-	taskList.push(new Array(type, "미샬두개", "Lv.13", "3000만 골드", 17, 12));
-	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
-	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
-	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
-	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
+	taskList.push(new Array(type, "벙커    ", "Lv. 9", "  30만 석유", 17, 12));
+	taskList.push(new Array(type, "보루    ", "Lv. 5", " 850만 골드", 14,  0));
+	taskList.push(new Array(type, "보루    ", "Lv. 5", " 850만 골드", 14,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -43,12 +46,13 @@ function setTask14() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민4";
-	taskMap.title = "1-4. 국민 (4명)";
+	taskMap.title = "1-4. 국민 (4명 → 6명)";
 	taskMap.startDate = "2023-07-18 01:00:00";
 	taskList.push(new Array(type, "벙커    ", "Lv. 8", "  28만 석유", 16,  0));
-	taskList.push(new Array(type, "벙커    ", "Lv. 9", "  30만 석유", 17, 12));
-	taskList.push(new Array(type, "보루    ", "Lv. 5", " 850만 골드", 14,  0));
-	taskList.push(new Array(type, "보루    ", "Lv. 5", " 850만 골드", 14,  0));
+	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
+	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
+	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
+	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -66,19 +70,6 @@ function setTask15() {
 	taskList.push(new Array(type, "유정    ", "Lv.16", "2500만 골드", 17,  0));
 	taskList.push(new Array(type, "유정    ", "Lv.16", "2500만 골드", 17,  0));
 	taskList.push(new Array(type, "유정    ", "Lv.16", "2500만 골드", 17,  0));
-	taskMap.taskList = taskList;
-	allTaskMapList.push(taskMap);
-}
-
-function setTask16() {
-	var taskList = new Array();
-	var taskMap = new Object();
-	var type = "국민6";
-	taskMap.title = "1-6. 국민 (1명)";
-	taskMap.startDate = "2023-08-05 00:39:00";
-	taskList.push(new Array(type, "무장매복", "Lv. 1", " 3.5만 석유", 12, 12));
-	taskList.push(new Array(type, "무장매복", "Lv. 2", " 4.5만 석유", 13,  0));
-	taskList.push(new Array(type, "무장매복", "Lv. 3", " 5.5만 석유", 13, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -114,7 +105,6 @@ $(document).ready(function() {
 		setTask13();
 		setTask14();
 		setTask15();
-		setTask16();
 		setTask21();
 		setTask22();
 		setDominations();
