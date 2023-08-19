@@ -3,13 +3,12 @@ function setTask11() {
 	var taskMap = new Object();
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (6명)";
-	taskMap.startDate = "2023-08-04 09:20:00";
-	taskList.push(new Array(type, "수비대  ", "Lv.13", "1600만 골드", 15, 12));
-	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
-	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
-	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
-	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
+	taskMap.startDate = "2023-08-19 15:45:00";
 	taskList.push(new Array(type, "수비대  ", "Lv.14", "1800만 골드", 16,  0));
+	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
+	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
+	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
+	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 19, 12));
 	taskList.push(new Array(type, "수비대  ", "Lv.14", "1800만 골드", 16,  0));
 	taskList.push(new Array(type, "수비대  ", "Lv.14", "1800만 골드", 16,  0));
 	taskList.push(new Array(type, "수비대  ", "Lv.14", "1800만 골드", 16,  0));
@@ -85,8 +84,7 @@ function setTask21() {
 	var taskMap = new Object();
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
-	taskMap.startDate = "2023-08-18 02:30:00";
-	taskList.push(new Array(type, "처칠    ", "Lv. 7", "   1만 석유",  0,  8));
+	taskMap.startDate = "2023-08-19 15:25:00";
 	taskList.push(new Array(type, "처칠    ", "Lv. 8", "   1만 석유",  0,  8));
 	taskList.push(new Array(type, "처칠    ", "Lv. 9", "   1만 석유",  0,  8));
 	taskList.push(new Array(type, "처칠    ", "Lv.10", "   1만 석유",  0,  8));
@@ -99,8 +97,7 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2023-08-18 02:30:00";
-	taskList.push(new Array(type, "주코프  ", "Lv. 7", "   1만 석유",  0,  8));
+	taskMap.startDate = "2023-08-19 15:25:00";
 	taskList.push(new Array(type, "주코프  ", "Lv. 8", "   1만 석유",  0,  8));
 	taskList.push(new Array(type, "주코프  ", "Lv. 9", "   1만 석유",  0,  8));
 	taskList.push(new Array(type, "주코프  ", "Lv.10", "   1만 석유",  0,  8));
