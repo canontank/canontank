@@ -86,8 +86,7 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2023-08-03 02:10:00";
-	taskList.push(new Array(type, "게릴라  ", "Lv.17", "  28만 석유", 18, 13));
+	taskMap.startDate = "2023-08-21 04:45:00";
 	taskList.push(new Array(type, "바주카  ", "Lv.17", "  28만 석유", 18, 13));
 	taskList.push(new Array(type, "에이피씨", "Lv.17", "  28만 석유", 18, 13));
 	taskList.push(new Array(type, "헬리곱터", "Lv.17", "  28만 석유", 18, 13));
