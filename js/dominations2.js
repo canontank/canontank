@@ -97,7 +97,8 @@ function setTask22() {
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
 	taskMap.startDate = "2023-08-23 22:25:00";
-	taskList.push(new Array(type, "처칠    ", "Lv.10", "   1만 석유",  0, 16));
+	taskList.push(new Array(type, "페트라  ", "Lv.11", "   1만 석유",  1, 22));
+	taskList.push(new Array(type, "손자    ", "Lv.11", "   1만 석유",  1, 22));
 	taskList.push(new Array(type, "게릴라  ", "Lv.16", "  28만 석유", 18, 12));
 	taskList.push(new Array(type, "바주카  ", "Lv.16", "  28만 석유", 18, 12));
 	taskList.push(new Array(type, "에이피씨", "Lv.16", "  28만 석유", 18, 12));
