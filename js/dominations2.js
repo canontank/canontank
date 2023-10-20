@@ -59,6 +59,7 @@ function setTask14() {
 	taskList.push(new Array(type, "골드창고", "Lv.16", "1100만 식량", 12,  0));
 	taskList.push(new Array(type, "골드창고", "Lv.16", "1100만 식량", 12,  0));
 	taskList.push(new Array(type, "골드창고", "Lv.16", "1100만 식량", 12,  0));
+	taskList.push(new Array(type, "골드창고", "Lv.16", "1100만 식량", 12,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
