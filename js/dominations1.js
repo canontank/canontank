@@ -35,6 +35,7 @@ function setTask13() {
 	taskMap.startDate = "2023-10-23 01:40:00";
 	taskList.push(new Array(type, "비행장  ", "Lv.10", "  33만 석유", 19,  0));
 	taskList.push(new Array(type, "공장    ", "Lv.18", "33.5만 석유", 20,  0));
+	taskList.push(new Array(type, "로켓무기", "Lv. 4", "  34만 석유", 19, 12));
 	taskList.push(new Array(type, "비행장  ", "Lv.10", "  33만 석유", 19,  0));
 	taskList.push(new Array(type, "공장    ", "Lv.18", "33.5만 석유", 20,  0));
 	taskMap.taskList = taskList;
