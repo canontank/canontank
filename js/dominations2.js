@@ -22,7 +22,7 @@ function setTask12() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민2";
-	taskMap.title = "1-2. 국민 (5명)";
+	taskMap.title = "1-2. 국민 (5명 → 4명)";
 	taskMap.startDate = "2023-11-19 19:55:00";
 	taskList.push(new Array(type, "훈련소  ", "Lv.15", "2000만 식량", 15, 12));
 	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
@@ -63,14 +63,23 @@ function setTask15() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민5";
-	taskMap.title = "1-5. 국민 (2명)";
+	taskMap.title = "1-5. 국민 (2명 → 3명)";
 	taskMap.startDate = "2023-11-19 19:35:00";
 	taskList.push(new Array(type, "미샬포대", "Lv.12", "1200만 골드", 16,  0));
-	taskList.push(new Array(type, "미샬포대", "Lv.12", "1200만 골드", 16,  0));
-	taskList.push(new Array(type, "미샬포대", "Lv. 1", " 100만 골드",  5,  0));
-	taskList.push(new Array(type, "미샬포대", "Lv. 2", " 150만 골드",  7,  0));
-	taskList.push(new Array(type, "미샬포대", "Lv. 3", " 250만 골드",  8,  0));
-	taskList.push(new Array(type, "미샬포대", "Lv. 4", " 325만 골드",  9,  0));
+	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
+	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
+	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
+	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
+	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
+	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
