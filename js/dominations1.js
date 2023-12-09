@@ -77,7 +77,7 @@ function setTask16() {
 	var type = "국민6";
 	taskMap.title = "1-6. 국민 (1명)";
 	taskMap.startDate = "2023-12-10 01:55:00";
-	taskList.push(new Array(type, "무장매복", "Lv. 2", " 8.5만 석유", 14, 12));
+	taskList.push(new Array(type, "무장매복", "Lv. 2", " 8.5만 석유", 11, 15));
 	taskList.push(new Array(type, "무장매복", "Lv. 3", "  12만 석유", 15, 12)); // 예상
 	taskList.push(new Array(type, "무장매복", "Lv. 4", "  15만 석유", 16, 12));
 	taskMap.taskList = taskList;
