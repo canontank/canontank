@@ -3,8 +3,7 @@ function setTask11() {
 	var taskMap = new Object();
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (6명)";
-	taskMap.startDate = "2023-11-24 02:27:00";
-	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 17, 12));
+	taskMap.startDate = "2023-12-12 04:00:00";
 	taskList.push(new Array(type, "전차격납", "Lv.17", "2500만 골드", 17, 12));
 	taskList.push(new Array(type, "전차격납", "Lv.18", "2600만 골드", 20, 12));
 	taskList.push(new Array(type, "전차격납", "Lv.18", "2600만 골드", 20, 12));
@@ -25,8 +24,12 @@ function setTask12() {
 	taskMap.title = "1-2. 국민 (4명)";
 	taskMap.startDate = "2023-12-05 06:45:00";
 	taskList.push(new Array(type, "공장    ", "Lv.18", "33.5만 석유", 20,  0));
-	taskList.push(new Array(type, "벙커    ", "Lv. 8", "  28만 석유", 16,  0));
-	taskList.push(new Array(type, "벙커    ", "Lv. 9", "  30만 석유", 17, 12));
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -51,12 +54,13 @@ function setTask14() {
 	var taskMap = new Object();
 	var type = "국민4";
 	taskMap.title = "1-4. 국민 (4명)";
-	taskMap.startDate = "2023-11-24 02:22:00";
-	taskList.push(new Array(type, "비행장  ", "Lv.10", "  33만 석유", 19,  0));
-	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
-	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
-	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
-	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
+	taskMap.startDate = "2023-12-12 04:00:00";
+	taskList.push(new Array(type, "벙커    ", "Lv. 8", "  28만 석유", 16,  0));
+	taskList.push(new Array(type, "벙커    ", "Lv. 9", "  30만 석유", 17, 12));
+	taskList.push(new Array(type, "벙커    ", "Lv.10", "  30만 석유", 18, 12));
+	taskList.push(new Array(type, "벙커    ", "Lv.10", "  30만 석유", 18, 12));
+	taskList.push(new Array(type, "벙커    ", "Lv.10", "  30만 석유", 18, 12));
+	taskList.push(new Array(type, "벙커    ", "Lv.10", "  30만 석유", 18, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
