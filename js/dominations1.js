@@ -37,6 +37,7 @@ function setTask13() {
 	taskMap.title = "1-3. 국민 (4명)";
 	taskMap.startDate = "2023-12-19 04:10:00";
 	taskList.push(new Array(type, "비행장  ", "Lv.10", "  33만 석유", 19,  0));
+	taskList.push(new Array(type, "보루    ", "Lv.12", "33.5만 석유", 17, 12));
 	taskList.push(new Array(type, "공장    ", "Lv.18", "33.5만 석유", 20,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
