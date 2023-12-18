@@ -71,8 +71,7 @@ function setTask15() {
 	var taskMap = new Object();
 	var type = "국민5";
 	taskMap.title = "1-5. 국민 (3명)";
-	taskMap.startDate = "2023-12-04 17:55:00";
-	taskList.push(new Array(type, "유정    ", "Lv.16", "2500만 골드", 15,  8));
+	taskMap.startDate = "2023-12-19 05:03:00";
 	taskList.push(new Array(type, "유정    ", "Lv.16", "2500만 골드", 15,  8));
 	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
 	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
@@ -97,8 +96,7 @@ function setTask21() {
 	var taskMap = new Object();
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
-	taskMap.startDate = "2023-12-08 02:35:00";
-	taskList.push(new Array(type, "수송기  ", "Lv. 4", "  20만 석유",  9, 20));
+	taskMap.startDate = "2023-12-19 04:50:00";
 	taskList.push(new Array(type, "수송기  ", "Lv. 5", "  20만 석유",  9, 20));
 	taskList.push(new Array(type, "수송기  ", "Lv. 6", "  20만 석유",  9, 20));
 	taskMap.taskList = taskList;
@@ -110,8 +108,7 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2023-12-08 02:35:00";
-	taskList.push(new Array(type, "전투기  ", "Lv. 4", "  20만 석유",  9, 20));
+	taskMap.startDate = "2023-12-19 04:50:00";
 	taskList.push(new Array(type, "전투기  ", "Lv. 5", "  20만 석유",  9, 20));
 	taskList.push(new Array(type, "전투기  ", "Lv. 6", "  20만 석유",  9, 20));
 	taskMap.taskList = taskList;
