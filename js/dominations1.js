@@ -19,9 +19,8 @@ function setTask12() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민2";
-	taskMap.title = "1-2. 국민 (5명 → 4명)";
-	taskMap.startDate = "2023-12-06 04:26:00";
-	taskList.push(new Array(type, "훈련소  ", "Lv.15", "2000만 식량", 15, 12));
+	taskMap.title = "1-2. 국민 (4명)";
+	taskMap.startDate = "2023-12-22 09:20:00";
 	taskList.push(new Array(type, "골드저장", "Lv.19", "1100만 식량", 12,  0));
 	taskList.push(new Array(type, "골드저장", "Lv.19", "1100만 식량", 12,  0));
 	taskList.push(new Array(type, "골드저장", "Lv.19", "1100만 식량", 12,  0));
@@ -62,10 +61,17 @@ function setTask15() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민5";
-	taskMap.title = "1-5. 국민 (2명)";
+	taskMap.title = "1-5. 국민 (2명 → 3명)";
 	taskMap.startDate = "2023-12-12 04:20:00";
 	taskList.push(new Array(type, "미샬포대", "Lv.14", "1800만 골드", 16, 16));
-	taskList.push(new Array(type, "미샬포대", "Lv.14", "1800만 골드", 16, 16));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -75,9 +81,8 @@ function setTask16() {
 	var taskMap = new Object();
 	var type = "국민6";
 	taskMap.title = "1-6. 국민 (1명)";
-	taskMap.startDate = "2023-12-10 01:55:00";
-	taskList.push(new Array(type, "무장매복", "Lv. 2", " 8.5만 석유", 11, 15));
-	taskList.push(new Array(type, "무장매복", "Lv. 3", "  12만 석유", 15, 12)); // 예상
+	taskMap.startDate = "2023-12-22 09:35:00";
+	taskList.push(new Array(type, "무장매복", "Lv. 3", "  12만 석유", 14, 10)); // 예상
 	taskList.push(new Array(type, "무장매복", "Lv. 4", "  15만 석유", 16, 12));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
