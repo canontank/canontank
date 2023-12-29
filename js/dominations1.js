@@ -37,6 +37,11 @@ function setTask13() {
 	taskList.push(new Array(type, "골드저장", "Lv.19", "1100만 식량", 12,  0));
 	taskList.push(new Array(type, "골드저장", "Lv.19", "1100만 식량", 12,  0));
 	taskList.push(new Array(type, "골드저장", "Lv.19", "1100만 식량", 12,  0));
+	taskList.push(new Array(type, "식량저장", "Lv.19", "1100만 골드", 12,  0));
+	taskList.push(new Array(type, "식량저장", "Lv.19", "1100만 골드", 12,  0));
+	taskList.push(new Array(type, "식량저장", "Lv.19", "1100만 골드", 12,  0));
+	taskList.push(new Array(type, "식량저장", "Lv.19", "1100만 골드", 12,  0));
+	taskList.push(new Array(type, "식량저장", "Lv.19", "1100만 골드", 12,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -48,6 +53,7 @@ function setTask14() {
 	taskMap.title = "1-4. 국민 (4명)";
 	taskMap.startDate = "2023-12-29 23:28:00";
 	taskList.push(new Array(type, "요새    ", "Lv.13", "  30만 석유", 17, 12));
+	taskList.push(new Array(type, "공장    ", "Lv.18", "33.5만 석유", 20,  0));
 	taskList.push(new Array(type, "벙커    ", "Lv.10", "  30만 석유", 18, 12));
 	taskList.push(new Array(type, "벙커    ", "Lv.10", "  30만 석유", 18, 12));
 	taskList.push(new Array(type, "벙커    ", "Lv.10", "  30만 석유", 18, 12));
@@ -67,6 +73,14 @@ function setTask15() {
 	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
 	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
 	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2500만 골드", 19,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
