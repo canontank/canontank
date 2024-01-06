@@ -23,12 +23,11 @@ function setTask12() {
 	taskMap.title = "1-2. 국민 (4명)";
 	taskMap.startDate = "2024-01-03 02:00:00";
 	taskList.push(new Array(type, "제조소  ", "Lv. 4", " 600만 골드",  6,  0));
-	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
-	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
-	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
-	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
-	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
-	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
+	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -38,13 +37,13 @@ function setTask13() {
 	var taskMap = new Object();
 	var type = "국민3";
 	taskMap.title = "1-3. 국민 (4명)";
-	taskMap.startDate = "2023-12-20 04:30:00";
-	taskList.push(new Array(type, "보루    ", "Lv.12", "  33만 석유", 17, 12));
-	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
-	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
-	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
-	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
-	taskList.push(new Array(type, "식량창고", "Lv.16", "1100만 골드", 12,  0));
+	taskMap.startDate = "2024-01-06 18:00:00";
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
