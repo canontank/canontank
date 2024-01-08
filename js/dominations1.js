@@ -22,6 +22,7 @@ function setTask12() {
 	taskMap.startDate = "2024-01-06 18:16:00";
 	taskList.push(new Array(type, "제조소  ", "Lv. 3", " 500만 골드",  5,  0));
 	taskList.push(new Array(type, "제조소  ", "Lv. 4", " 600만 골드",  6,  0));
+	taskList.push(new Array(type, "제조소  ", "Lv. 5", " 800만 골드",  7,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
