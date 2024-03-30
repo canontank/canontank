@@ -46,10 +46,10 @@ function setTask14() {
 	var taskList = new Array();
 	var taskMap = new Object();
 	var type = "국민4";
-	taskMap.title = "1-4. 국민 (4명)";
+	taskMap.title = "1-4. 국민 (3명 → 4명)";
 	taskMap.startDate = "2024-03-20 03:07:00";
-	taskList.push(new Array(type, "클레모어", "Lv. 4", "1800만 골드", 10, 19));
-	taskList.push(new Array(type, "유인함정", "Lv. 6", "2700만 골드", 12,  0));
+	taskList.push(new Array(type, "매복함정", "Lv. 5", "  33만 석유", 14,  0));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -62,7 +62,6 @@ function setTask15() {
 	taskMap.startDate = "2024-03-27 19:42:00";
 	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
 	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
-	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
 	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
 	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
 	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
