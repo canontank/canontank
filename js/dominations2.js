@@ -21,9 +21,6 @@ function setTask12() {
 	taskList.push(new Array(type, "타워    ", "Lv.17", "2100만 골드", 14,  0));
 	taskList.push(new Array(type, "타워    ", "Lv.17", "2100만 골드", 14,  0));
 	taskList.push(new Array(type, "타워    ", "Lv.17", "2100만 골드", 14,  0));
-	taskList.push(new Array(type, "타워    ", "Lv.17", "2100만 골드", 14,  0));
-	taskList.push(new Array(type, "타워    ", "Lv.17", "2100만 골드", 14,  0));
-	taskList.push(new Array(type, "타워    ", "Lv.17", "2100만 골드", 14,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -33,9 +30,11 @@ function setTask13() {
 	var taskMap = new Object();
 	var type = "국민3";
 	taskMap.title = "1-3. 국민 (4명)";
-	taskMap.startDate = "2024-03-23 02:44:00";
+	taskMap.startDate = "2024-04-06 00:30:00";
 	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
-	taskList.push(new Array(type, "방공시설", "Lv.14", "2300만 골드", 19,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.17", "2100만 골드", 14,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.17", "2100만 골드", 14,  0));
+	taskList.push(new Array(type, "타워    ", "Lv.17", "2100만 골드", 14,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -47,7 +46,8 @@ function setTask14() {
 	taskMap.title = "1-4. 국민 (3명 → 4명)";
 	taskMap.startDate = "2024-03-31 12:59:00";
 	taskList.push(new Array(type, "신호탄  ", "Lv. 5", "  33만 석유", 14,  0));
-	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "용병캠프", "Lv.16", "2100만 식량", 17,  0));
+	taskList.push(new Array(type, "사령부  ", "Lv.14", "1500만 식량", 16,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -59,6 +59,7 @@ function setTask15() {
 	taskMap.title = "1-5. 국민 (3명)";
 	taskMap.startDate = "2024-03-27 19:42:00";
 	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
+	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
 	taskList.push(new Array(type, "유정    ", "Lv.17", "2600만 골드", 17, 12));
 	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
 	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
