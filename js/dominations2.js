@@ -44,7 +44,7 @@ function setTask14() {
 	var taskMap = new Object();
 	var type = "국민4";
 	taskMap.title = "1-4. 국민 (3명 → 4명)";
-	taskMap.startDate = "2024-03-31 12:59:00";
+	taskMap.startDate = "2024-03-31 00:59:00";
 	taskList.push(new Array(type, "신호탄  ", "Lv. 5", "  33만 석유", 14,  0));
 	taskList.push(new Array(type, "용병캠프", "Lv.16", "2100만 식량", 17,  0));
 	taskList.push(new Array(type, "사령부  ", "Lv.14", "1500만 식량", 16,  0));
