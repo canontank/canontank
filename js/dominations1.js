@@ -3,9 +3,10 @@ function setTask11() {
 	var taskMap = new Object();
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (6명)";
-	taskMap.startDate = "2024-04-01 23:55:00";
+	taskMap.startDate = "2024-04-13 11:30:00";
 	taskList.push(new Array(type, "수비대  ", "Lv.16", "2200만 골드", 19,  0));
-	taskList.push(new Array(type, "수비대  ", "Lv.16", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "매복네개", "Lv.10", "2200만 골드", 10,  0));
+	taskList.push(new Array(type, "매복네개", "Lv.10", "2200만 골드", 10,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -73,6 +74,18 @@ function setTask15() {
 	allTaskMapList.push(taskMap);
 }
 
+function setTask16() {
+	var taskList = new Array();
+	var taskMap = new Object();
+	var type = "국민6";
+	taskMap.title = "1-6. 국민 (2명)";
+	taskMap.startDate = "2024-05-02 11:30:00";
+	taskList.push(new Array(type, "미샬포대", "Lv. 3", " 250만 골드",  5,  4));
+	taskList.push(new Array(type, "미샬포대", "Lv.13", "1750만 골드", 16, 16));
+	taskMap.taskList = taskList;
+	allTaskMapList.push(taskMap);
+}
+
 function setTask21() {
 	var taskList = new Array();
 	var taskMap = new Object();
@@ -109,6 +122,7 @@ $(document).ready(function() {
 		setTask13();
 		setTask14();
 		setTask15();
+		setTask16();
 		setTask21();
 		setTask22();
 		setDominations();
