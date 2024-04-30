@@ -90,9 +90,12 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2024-04-21 02:18:00";
-	taskList.push(new Array(type, "정찰기  ", "Lv. 5", "  20만 석유",  9, 20));
+	taskMap.startDate = "2024-04-30 22:37:00";
 	taskList.push(new Array(type, "정찰기  ", "Lv. 6", "  20만 석유",  9, 20));
+	taskList.push(new Array(type, "개틀링  ", "Lv. 1", "  30만 석유", 19,  0));
+	taskList.push(new Array(type, "중전차  ", "Lv. 1", "  30만 석유", 19,  0));
+	taskList.push(new Array(type, "무장차량", "Lv. 1", "  30만 석유", 19,  0));
+	taskList.push(new Array(type, "엠알엘  ", "Lv. 1", "  30만 석유", 19,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
