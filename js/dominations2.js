@@ -73,10 +73,12 @@ function setTask21() {
 	taskMap.title = "2-1. 무기고 연구";
 	taskMap.startDate = "2024-05-02 02:21:00";
 	taskList.push(new Array(type, "바주카  ", "Lv. 1", "  20만 석유", 19,  0));
-	taskList.push(new Array(type, "보병    ", "Lv.16", "1800만 식량", 16, 16));
-	taskList.push(new Array(type, "궁병    ", "Lv.16", "1800만 식량", 16, 16));
-	taskList.push(new Array(type, "전차    ", "Lv.16", "2350만 식량", 16, 16));
-	taskList.push(new Array(type, "포병대  ", "Lv.16", "2350만 식량", 16, 16));
+	taskList.push(new Array(type, "게릴라  ", "Lv. 1", "  30만 석유", 19,  0));
+	taskList.push(new Array(type, "개틀링  ", "Lv. 1", "  30만 석유", 19,  0));
+	taskList.push(new Array(type, "중전차  ", "Lv. 1", "  30만 석유", 19,  0));
+	taskList.push(new Array(type, "무장차량", "Lv. 1", "  30만 석유", 19,  0));
+	taskList.push(new Array(type, "에이피씨", "Lv. 1", "  30만 석유", 19,  0));
+	taskList.push(new Array(type, "엠알엘  ", "Lv. 1", "  30만 석유", 19,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -86,14 +88,11 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2024-05-08 19:45:00";
-	taskList.push(new Array(type, "정찰기  ", "Lv. 6", "  20만 석유",  9, 20));
-	taskList.push(new Array(type, "게릴라  ", "Lv. 1", "  30만 석유", 19,  0));
-	taskList.push(new Array(type, "개틀링  ", "Lv. 1", "  30만 석유", 19,  0));
-	taskList.push(new Array(type, "중전차  ", "Lv. 1", "  30만 석유", 19,  0));
-	taskList.push(new Array(type, "무장차량", "Lv. 1", "  30만 석유", 19,  0));
-	taskList.push(new Array(type, "에이피씨", "Lv. 1", "  30만 석유", 19,  0));
-	taskList.push(new Array(type, "엠알엘  ", "Lv. 1", "  30만 석유", 19,  0));
+	taskMap.startDate = "2024-05-18 18:04:00";
+	taskList.push(new Array(type, "보병    ", "Lv.16", "1800만 식량", 16, 16));
+	taskList.push(new Array(type, "궁병    ", "Lv.16", "1800만 식량", 16, 16));
+	taskList.push(new Array(type, "전차    ", "Lv.16", "2350만 식량", 16, 16));
+	taskList.push(new Array(type, "포병대  ", "Lv.16", "2350만 식량", 16, 16));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
