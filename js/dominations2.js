@@ -20,8 +20,8 @@ function setTask12() {
 	taskMap.title = "1-2. 국민 (4명)";
 	taskMap.startDate = "2024-05-16 19:20:00";
 	taskList.push(new Array(type, "지뢰네개", "Lv.15", "2800만 골드", 11, 15));
-	taskList.push(new Array(type, "공장    ", "Lv.19", "  35만 석유", 21,  0));
-	taskList.push(new Array(type, "공장    ", "Lv.19", "  35만 석유", 21,  0));
+	taskList.push(new Array(type, "지뢰네개", "Lv.15", "2800만 골드", 11, 15));
+	taskList.push(new Array(type, "지뢰네개", "Lv.16", "3000만 골드", 13,  0)); // 미확인
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -31,10 +31,9 @@ function setTask13() {
 	var taskMap = new Object();
 	var type = "국민3";
 	taskMap.title = "1-3. 국민 (4명)";
-	taskMap.startDate = "2024-05-07 18:22:00";
-	taskList.push(new Array(type, "타워    ", "Lv.17", "2100만 골드", 14,  0));
-	taskList.push(new Array(type, "지뢰네개", "Lv.15", "2800만 골드", 11, 15));
-	taskList.push(new Array(type, "지뢰네개", "Lv.16", "3000만 골드", 13,  0)); // 미확인
+	taskMap.startDate = "2024-05-21 07:08:00";
+	taskList.push(new Array(type, "공장    ", "Lv.19", "  35만 석유", 21,  0));
+	taskList.push(new Array(type, "공장    ", "Lv.19", "  35만 석유", 21,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -56,8 +55,7 @@ function setTask15() {
 	var taskMap = new Object();
 	var type = "국민5";
 	taskMap.title = "1-5. 국민 (3명)";
-	taskMap.startDate = "2024-05-03 03:10:00";
-	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
+	taskMap.startDate = "2024-05-21 07:08:00";
 	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
 	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
 	taskList.push(new Array(type, "대전차포", "Lv.13", "2200만 골드", 19,  0));
@@ -73,8 +71,7 @@ function setTask21() {
 	var taskMap = new Object();
 	var type = "무기1";
 	taskMap.title = "2-1. 무기고 연구";
-	taskMap.startDate = "2024-05-02 02:21:00";
-	taskList.push(new Array(type, "바주카  ", "Lv. 1", "  20만 석유", 19,  0));
+	taskMap.startDate = "2024-05-21 07:00:00";
 	taskList.push(new Array(type, "게릴라  ", "Lv. 1", "  30만 석유", 19,  0));
 	taskList.push(new Array(type, "개틀링  ", "Lv. 1", "  30만 석유", 19,  0));
 	taskList.push(new Array(type, "중전차  ", "Lv. 1", "  30만 석유", 19,  0));
