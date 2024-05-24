@@ -78,6 +78,14 @@ function setTask21() {
 	taskList.push(new Array(type, "무장차량", "Lv. 1", "  30만 석유", 19,  0));
 	taskList.push(new Array(type, "에이피씨", "Lv. 1", "  30만 석유", 19,  0));
 	taskList.push(new Array(type, "엠알엘  ", "Lv. 1", "  30만 석유", 19,  0));
+	taskList.push(new Array(type, "개틀링  ", "Lv.19", "  30만 석유", 20,  0)); // 미확인
+	taskList.push(new Array(type, "게릴라  ", "Lv.19", "  30만 석유", 20,  0)); // 미확인
+	taskList.push(new Array(type, "중전차  ", "Lv.19", "  30만 석유", 20,  0)); // 미확인
+	taskList.push(new Array(type, "바주카  ", "Lv.19", "  30만 석유", 20,  0)); // 미확인
+	taskList.push(new Array(type, "무장차량", "Lv.19", "  30만 석유", 20,  0)); // 미확인
+	taskList.push(new Array(type, "에이피씨", "Lv.19", "  30만 석유", 20,  0)); // 미확인
+	taskList.push(new Array(type, "엠알엘  ", "Lv.19", "  30만 석유", 20,  0)); // 미확인
+	taskList.push(new Array(type, "전술헬기", "Lv.19", "  30만 석유", 20,  0)); // 미확인
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -92,6 +100,13 @@ function setTask22() {
 	taskList.push(new Array(type, "궁병    ", "Lv.16", "1800만 식량", 16, 16));
 	taskList.push(new Array(type, "전차    ", "Lv.16", "2350만 식량", 16, 16));
 	taskList.push(new Array(type, "포병대  ", "Lv.16", "2350만 식량", 16, 16));
+	taskList.push(new Array(type, "일제사격", "Lv.19", "2000만 식량", 10, 19));
+	taskList.push(new Array(type, "응급처치", "Lv.19", "2000만 식량", 10, 19));
+	taskList.push(new Array(type, "보호    ", "Lv.19", "2000만 식량", 10, 19));
+	taskList.push(new Array(type, "파괴    ", "Lv.19", "2000만 식량", 10, 19));
+	taskList.push(new Array(type, "배반    ", "Lv.19", "2000만 식량", 10, 19));
+	taskList.push(new Array(type, "유인    ", "Lv.19", "2000만 식량", 10, 19));
+	taskList.push(new Array(type, "공격집결", "Lv.19", "2000만 식량", 10, 19));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
