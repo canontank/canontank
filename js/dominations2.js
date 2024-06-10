@@ -17,9 +17,8 @@ function setTask12() {
 	var taskMap = new Object();
 	var type = "국민2";
 	taskMap.title = "1-2. 국민 (4명)";
-	taskMap.startDate = "2024-05-29 05:52:00";
-	taskList.push(new Array(type, "지뢰네개", "Lv.15", "2800만 골드", 11, 15));
-	taskList.push(new Array(type, "지뢰네개", "Lv.16", "3000만 골드", 12, 23));
+	taskMap.startDate = "2024-06-10 20:55:00";
+	taskList.push(new Array(type, "가시철사", "Lv.12", "2800만 골드", 10, 20));
 	taskList.push(new Array(type, "지뢰네개", "Lv.16", "3000만 골드", 12, 23));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
@@ -48,7 +47,7 @@ function setTask14() {
 	taskMap.title = "1-4. 국민 (4명)";
 	taskMap.startDate = "2024-06-04 23:15:00";
 	taskList.push(new Array(type, "가시철사", "Lv.11", "2100만 골드",  9, 14));
-	taskList.push(new Array(type, "가시철사", "Lv.12", "2800만 골드", 10, 20));
+	taskList.push(new Array(type, "지뢰네개", "Lv.16", "3000만 골드", 12, 23));
 	taskList.push(new Array(type, "가시철사", "Lv.12", "2800만 골드", 10, 20));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
