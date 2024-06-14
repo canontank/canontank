@@ -98,6 +98,7 @@ function setTask22() {
 	taskMap.title = "2-2. 무기고 연구";
 	taskMap.startDate = "2024-06-03 21:22:00";
 	taskList.push(new Array(type, "전차    ", "Lv.16", "2350만 식량", 16, 16));
+	taskList.push(new Array(type, "공격집결", "Lv.19", "2000만 식량", 10, 19));
 	taskList.push(new Array(type, "궁병    ", "Lv.16", "1800만 식량", 16, 16));
 	taskList.push(new Array(type, "포병대  ", "Lv.16", "2350만 식량", 16, 16));
 	taskList.push(new Array(type, "일제사격", "Lv.19", "2000만 식량", 10, 19));
@@ -106,7 +107,6 @@ function setTask22() {
 	taskList.push(new Array(type, "파괴    ", "Lv.19", "2000만 식량", 10, 19));
 	taskList.push(new Array(type, "배반    ", "Lv.19", "2000만 식량", 10, 19));
 	taskList.push(new Array(type, "유인    ", "Lv.19", "2000만 식량", 10, 19));
-	taskList.push(new Array(type, "공격집결", "Lv.19", "2000만 식량", 10, 19));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
