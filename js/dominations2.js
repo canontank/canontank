@@ -16,9 +16,10 @@ function setTask12() {
 	var taskMap = new Object();
 	var type = "국민2";
 	taskMap.title = "1-2. 국민 (4명)";
-	taskMap.startDate = "2024-07-05 21:28:00";
+	taskMap.startDate = "2024-07-04 01:28:00";
+	taskList.push(new Array(type, "지뢰네개", "Lv.17", "3000만 골드", 14, 18));
 	taskList.push(new Array(type, "지뢰네개", "Lv.16", "3000만 골드", 13,  0));
-	taskList.push(new Array(type, "지뢰네개", "Lv.16", "3000만 골드", 13,  0));
+	taskList.push(new Array(type, "지뢰네개", "Lv.17", "3000만 골드", 14, 18)); // 미확인
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
