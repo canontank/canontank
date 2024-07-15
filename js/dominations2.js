@@ -3,10 +3,14 @@ function setTask11() {
 	var taskMap = new Object();
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (6명)";
-	taskMap.startDate = "2024-06-28 02:10:00";
-	taskList.push(new Array(type, "전차격납", "Lv.19", "2750만 골드", 21,  0));
+	taskMap.startDate = "2024-07-15 19:45:00";
 	taskList.push(new Array(type, "수비대  ", "Lv.14", "1800만 골드", 14, 10));
 	taskList.push(new Array(type, "수비대  ", "Lv.14", "1800만 골드", 14, 10));
+	taskList.push(new Array(type, "수비대  ", "Lv.15", "2000만 골드", 15, 19));
+	taskList.push(new Array(type, "수비대  ", "Lv.15", "2000만 골드", 15, 19));
+	taskList.push(new Array(type, "수비대  ", "Lv.15", "2000만 골드", 15, 19));
+	taskList.push(new Array(type, "수비대  ", "Lv.15", "2000만 골드", 15, 19));
+	taskList.push(new Array(type, "수비대  ", "Lv.15", "2000만 골드", 15, 19));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
@@ -90,9 +94,18 @@ function setTask22() {
 	var taskMap = new Object();
 	var type = "무기2";
 	taskMap.title = "2-2. 무기고 연구";
-	taskMap.startDate = "2024-06-28 02:10:00";
-	taskList.push(new Array(type, "궁병    ", "Lv.16", "1800만 식량", 16, 16));
+	taskMap.startDate = "2024-07-15 19:45:00";
 	taskList.push(new Array(type, "포병대  ", "Lv.16", "2350만 식량", 16, 16));
+	taskList.push(new Array(type, "보병    ", "Lv.17", "1600만 식량", 17,  3));
+	taskList.push(new Array(type, "궁수    ", "Lv.17", "1600만 식량", 17,  3));
+	taskList.push(new Array(type, "돌격대  ", "Lv.17", "1700만 식량", 17,  3));
+	taskList.push(new Array(type, "전차    ", "Lv.17", "2100만 식량", 17,  3));
+	taskList.push(new Array(type, "공병    ", "Lv.17", "2100만 식량", 17,  3));
+	taskList.push(new Array(type, "포병대  ", "Lv.17", "2100만 식량", 17,  3));
+	taskList.push(new Array(type, "박격포병", "Lv.17", "2100만 식량", 17,  3));
+	taskList.push(new Array(type, "보급차량", "Lv.17", "2100만 식량", 17,  3));
+	taskList.push(new Array(type, "헬리곱터", "Lv.17", "2100만 식량", 17,  3));
+	taskList.push(new Array(type, "강습차량", "Lv.17", "2200만 식량", 17,  3));
 	taskList.push(new Array(type, "일제사격", "Lv.19", "2000만 식량", 10, 19));
 	taskList.push(new Array(type, "응급처치", "Lv.19", "2000만 식량", 10, 19));
 	taskList.push(new Array(type, "보호    ", "Lv.19", "2000만 식량", 10, 19));
