@@ -23,6 +23,8 @@ function setTask12() {
 	taskMap.startDate = "2024-07-18 21:55:00";
 	taskList.push(new Array(type, "지뢰네개", "Lv.16", "3000만 골드", 13,  0));
 	taskList.push(new Array(type, "지뢰네개", "Lv.17", "3000만 골드", 14, 20)); // 미확인
+	taskList.push(new Array(type, "지뢰네개", "Lv.18", "4000만 골드", 15,  8));
+	taskList.push(new Array(type, "지뢰네개", "Lv.18", "4000만 골드", 15,  8));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
