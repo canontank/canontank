@@ -3,12 +3,16 @@ function setTask11() {
 	var taskMap = new Object();
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (6명)";
-	taskMap.startDate = "2024-08-19 03:20:00";
-	taskList.push(new Array(type, "도서관  ", "Lv.16", "1000만 골드", 16,  0));
+	taskMap.startDate = "2024-09-02 11:30:00";
 	taskList.push(new Array(type, "수비대  ", "Lv.15", "2000만 골드", 15, 19));
 	taskList.push(new Array(type, "수비대  ", "Lv.15", "2000만 골드", 15, 19));
 	taskList.push(new Array(type, "수비대  ", "Lv.15", "2000만 골드", 15, 19));
 	taskList.push(new Array(type, "수비대  ", "Lv.15", "2000만 골드", 15, 19));
+	taskList.push(new Array(type, "수비대  ", "Lv.16", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.16", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.16", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.16", "2200만 골드", 19,  0));
+	taskList.push(new Array(type, "수비대  ", "Lv.16", "2200만 골드", 19,  0));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
