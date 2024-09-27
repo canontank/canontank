@@ -111,6 +111,9 @@ function setTask18() {
 	taskMap.title = "1-8. 국민 (2명)";
 	taskMap.startDate = "2024-09-27 15:50:00";
 	taskList.push(new Array(type, "미샬포대", "Lv.13", "2000만 골드", 15, 16));
+	taskList.push(new Array(type, "미샬포대", "Lv. 9", " 650만 골드", 10, 17));
+	taskList.push(new Array(type, "미샬포대", "Lv.10", "2000만 골드", 14,  0)); // 미확인
+	taskList.push(new Array(type, "미샬포대", "Lv.11", "2000만 골드", 15,  0)); // 미확인
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
