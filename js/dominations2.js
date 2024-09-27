@@ -62,6 +62,7 @@ function setTask14() {
 	taskList.push(new Array(type, "미샬포대", "Lv.10", " 700만 골드", 12,  0)); // 미확인
 	taskList.push(new Array(type, "미샬포대", "Lv.11", " 750만 골드", 13,  0)); // 미확인
 	taskList.push(new Array(type, "미샬포대", "Lv.12", " 850만 골드", 14,  7));
+	taskList.push(new Array(type, "미샬포대", "Lv.13", "2000만 골드", 15, 16));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
