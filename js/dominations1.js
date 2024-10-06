@@ -62,6 +62,8 @@ function setTask15() {
 	taskList.push(new Array(type, "지뢰    ", "Lv.18", "4800만 골드", 15,  5));
 	taskList.push(new Array(type, "지뢰    ", "Lv.19", "5200만 골드", 15, 16));
 	taskList.push(new Array(type, "지뢰    ", "Lv.19", "5200만 골드", 15, 16));
+	taskList.push(new Array(type, "지뢰    ", "Lv.20", "4800만 골드", 17, 22));
+	taskList.push(new Array(type, "지뢰    ", "Lv.20", "4800만 골드", 17, 22));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
