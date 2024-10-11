@@ -3,12 +3,11 @@ function setTask11() {
 	var taskMap = new Object();
 	var type = "국민1";
 	taskMap.title = "1-1. 국민 (4명)";
-	taskMap.startDate = "2024-09-24 15:55:00";
-	taskList.push(new Array(type, "대학    ", "Lv.12", "1750만 골드", 17,  0));
-	taskList.push(new Array(type, "저격타워", "Lv.10", "1020만 골드", 11,  4));
-	taskList.push(new Array(type, "저격타워", "Lv.10", "1020만 골드", 11,  4));
-	taskList.push(new Array(type, "저격타워", "Lv.10", "1020만 골드", 11,  4));
-	taskList.push(new Array(type, "저격타워", "Lv.10", "1020만 골드", 11,  4));
+	taskMap.startDate = "2024-10-11 20:18:00";
+	taskList.push(new Array(type, "저격타워", "Lv.10", "1550만 골드", 11,  4));
+	taskList.push(new Array(type, "저격타워", "Lv.10", "1550만 골드", 11,  4));
+	taskList.push(new Array(type, "저격타워", "Lv.10", "1550만 골드", 11,  4));
+	taskList.push(new Array(type, "저격타워", "Lv.10", "1550만 골드", 11,  4));
 	taskMap.taskList = taskList;
 	allTaskMapList.push(taskMap);
 }
