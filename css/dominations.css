@@ -17,7 +17,6 @@ body {
     width : 35%;
     padding : 25px;
     overflow-y : auto;
-    border-right : 1px solid #ccc;
 }
 
 .table {

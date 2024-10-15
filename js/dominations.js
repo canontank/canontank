@@ -7,10 +7,6 @@ var allTaskMapList = new Array();
 var sortTaskList1 = new Array();
 var sortTaskList2 = new Array();
 
-$(function() {
-	$(window).resize(setHeight);
-});
-
 function setDominations(rows) {
 	setHeight();
 	setAllTaskMapList(rows);
@@ -59,6 +55,7 @@ function setTask() {
 }
 
 function setHeight() {
+	$(window).resize(setHeight);
 	$(".task").innerHeight(window.innerHeight - 50);
 }
 
