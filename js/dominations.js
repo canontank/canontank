@@ -1,4 +1,8 @@
 var date = new Date(); 
+
+var dataList = new Array();
+var gbnList = new Set();
+
 var allTaskMapList = new Array();
 var sortTaskList1 = new Array();
 var sortTaskList2 = new Array();
@@ -7,8 +11,9 @@ $(function() {
 	$(window).resize(setHeight);
 });
 
-function setDominations() {
+function setDominations(rows) {
 	setHeight();
+	setAllTaskMapList(rows);
 	setTaskObject();
 	setSortTaskList1();
 	setSortTaskList2();
@@ -16,6 +21,41 @@ function setDominations() {
 	show2();
 	show3();
 	show4();
+}
+
+function setAllTaskMapList(rows) {
+	dataList = rows;
+	setGbnList();
+	setTask();
+}
+
+function setGbnList() {
+	for (var data of dataList) {
+		if (data["분류"] == "-")
+			continue;
+		gbnList.add(data["분류"]);
+	}
+}
+
+function setTask() {
+	for (var gbn of gbnList) {
+		var taskList = new Array();
+		var taskMap = new Object();
+		taskMap.title = gbn;
+		for (var data of dataList) {
+			if (data["분류"] != gbn)
+				continue;
+			if (taskList.length == 0) {
+				taskMap.startDate = data["시작일"];
+				if (data["인구"] > 0) {
+					taskMap.title += " (" + data["인구"] + "명)";
+				}
+			}
+			taskList.push(new Array(data["분류"], data["항목"], "Lv." + data["레벨"], data["자원"], data["일"], data["시"]));
+		}
+		taskMap.taskList = taskList;
+		allTaskMapList.push(taskMap);
+	}
 }
 
 function setHeight() {
@@ -88,7 +128,7 @@ function setSortTaskList2() {
 function show1() {
 	var divId = "#task1";
 	for (var taskMap of allTaskMapList) {
-		$(divId).append($("<h4/>", { text : taskMap.title }));
+		$(divId).append($("<h4/>", { text : "# " + taskMap.title }));
 		var taskList = taskMap.taskList;
 		var table = $('<table/>', { class : 'table table-bordered table-striped text-right' });
 		setTitle1(table);
@@ -106,9 +146,9 @@ function show2() {
 	setTitle1(table1);
 	var table2 = $('<table/>', { class : 'table table-bordered table-striped text-right' });
 	setTitle1(table2);
-	$(divId).append($("<h4/>", { text : "1. 진행 또는 완료" }));
+	$(divId).append($("<h4/>", { text : "# 진행 또는 완료" }));
 	$(divId).append(table1).append("<br>");
-	$(divId).append($("<h4/>", { text : "2. 대기" }));
+	$(divId).append($("<h4/>", { text : "# 대기" }));
 	$(divId).append(table2).append("<br>");
 	for (var object of sortTaskList1) {
 		if (isStarted(object[6])) {
@@ -124,7 +164,7 @@ function show3() {
 	var titleList = new Array("국민", "무기", "도서");
 	for (var i = 0; i < titleList.length; i++) {
 		var title = titleList[i];
-		$(divId).append($("<h4/>", { text : (i + 1) + ". " + title }));
+		$(divId).append($("<h4/>", { text : "# " + title }));
 		var table = $('<table/>', { class : 'table table-bordered table-striped' });
 		setTitle3(table);
 		$(divId).append(table);
